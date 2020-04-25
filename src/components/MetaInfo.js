@@ -23,21 +23,25 @@ const MetaItem = styled.li`
 	}
 `;
 
-const MetaInfo = ({ prep, cook, readyIn }) => (
-	<Wrapper>
-		<MetaItem>
-			<Text>Prep</Text>
-			<Text>{prep}</Text>
-		</MetaItem>
-		<MetaItem>
-			<Text>Cook</Text>
-			<Text>{cook}</Text>
-		</MetaItem>
-		<MetaItem>
-			<Text>Ready In</Text>
-			<Text>{readyIn}</Text>
-		</MetaItem>
-	</Wrapper>
-);
+const MetaInfo = ({ prep, cook, readyIn }) => {
+	if (!prep && !cook && !readyIn) return null;
+
+	return (
+		<Wrapper>
+			<MetaItem>
+				<Text>Prep</Text>
+				<Text>{prep}</Text>
+			</MetaItem>
+			<MetaItem>
+				<Text>Cook</Text>
+				<Text>{cook}</Text>
+			</MetaItem>
+			<MetaItem>
+				<Text>Ready In</Text>
+				<Text>{readyIn}</Text>
+			</MetaItem>
+		</Wrapper>
+	);
+};
 
 export default MetaInfo;
