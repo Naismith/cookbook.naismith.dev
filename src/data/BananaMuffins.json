@@ -1,0 +1,29 @@
+{
+	"title": "Banana Muffins",
+	"categories": [],
+	"meta": {
+		"prep": "",
+		"cook": "25 m",
+		"ready_in": ""
+	},
+	"images": ["../images/recipes/BananaMuffin.jpg"],
+	"stars": 4.5,
+	"ingredients": [
+		"1/2 cup margarine softened",
+		"1 cup sugar",
+		"2 eggs",
+		"3-4 mashed bananas",
+		"2 cup flour",
+		"2 tsp baking soda",
+		"1/4 tsp of salt",
+		"1 cup chocolate chips"
+	],
+	"directions": [
+		"Preheat oven to 350 degree Fahrenheit",
+		"Beat margarine and sugar in a bowl",
+		"After beating margarine and sugar, add eggs and bananas and continue beating",
+		"Add flour, baking soda and salt to wet mixture.",
+		"(Optional) Add in chocolate chips",
+		"Spray muffin tins, and cook for 25 mins or until done."
+	]
+}

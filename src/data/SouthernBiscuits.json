@@ -1,0 +1,30 @@
+{
+	"title": "Southern Biscuits",
+	"categories": [],
+	"meta": {
+		"prep": "",
+		"cook": "",
+		"ready_in": ""
+	},
+	"images": ["../images/recipes/Baguette.jpg"],
+	"stars": 4.5,
+	"ingredients": [
+		"2 cups flour",
+		"4 teaspoons baking powder",
+		"1/4 teaspoon baking soda",
+		"3/4 teaspoon salt",
+		"2 tablespoons butter",
+		"2 tablespoons shortening",
+		"1 cup buttermilk, chilled"
+	],
+	"directions": [
+		"Dissolve yeast in warm water in a large bowl; let stand 5 minutes.",
+		"Lightly spoon flour into dry measuring cups; level with a knife. Add 2 3/4 cups flour to yeast mixture; stir until a soft dough forms. Cover and let stand 15 minutes.",
+		"Turn dough out onto a lightly floured surface; sprinkle evenly with salt. Knead until the salt is incorporated and the dough is smooth and elastic (about 6 minutes); add enough of remaining flour, 1 tablespoon at a time, to prevent dough from sticking to hands (dough will feel slightly sticky).",
+		"Place dough in large bowl coated with cooking spray, turning to coat top. Cover and let rise in warm place (85°), 40 minutes or until doubled in size.",
+		"(Gently press two fingers into dough. If an indentation remains, the dough has risen enough.) Punch dough down; cover and let rest 5 minutes.",
+		"Divide in half. Working with 1 portion at a time (cover remaining dough to prevent drying), roll each portion on a floured surface into 12-inch rope, slightly tapered at ends. Place ropes on large baking sheet sprinkled with cornmeal. Lightly coat dough with cooking spray, and cover; let rise 20 minutes or until doubled in size.",
+		"Preheat oven to 450°.",
+		"Uncover the dough. Cut 3 (1/4-inch-deep) diagonal slits across top of each loaf. Bake at 450° for 20 minutes or until browned on bottom and sounds hollow when tapped."
+	]
+}
