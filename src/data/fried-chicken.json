@@ -6,7 +6,7 @@
 		"cook": "20 mins",
 		"ready_in": "50 mins"
 	},
-	"images": ["../images/recipes/FriedChicken.jpeg"],
+	"images": ["../images/recipes/fried-chicken.jpeg"],
 	"stars": 4.5,
 	"ingredients": [
 		"3 cups all purpose flour",

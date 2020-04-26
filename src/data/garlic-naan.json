@@ -6,7 +6,7 @@
 		"cook": "20 m",
 		"ready_in": "35 m"
 	},
-	"images": ["../images/recipes/GarlicNaan.jpg"],
+	"images": ["../images/recipes/garlic-naan.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"3.25 cups + 3-4 tbsp all purpose flour",

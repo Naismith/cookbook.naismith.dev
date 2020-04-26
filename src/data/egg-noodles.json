@@ -6,7 +6,7 @@
 		"cook": "3 m",
 		"ready_in": "38 m"
 	},
-	"images": ["../images/recipes/EggNoodles.jpg"],
+	"images": ["../images/recipes/egg-noodles.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"2 cups flour",

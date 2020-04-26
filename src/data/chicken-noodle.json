@@ -6,7 +6,7 @@
 		"cook": "",
 		"ready_in": ""
 	},
-	"images": ["../images/recipes/ChickenNoodleCasserole.jpg"],
+	"images": ["../images/recipes/chicken-noodle-casserole.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"1 (12 oz) package egg noodles, cooked and drained",

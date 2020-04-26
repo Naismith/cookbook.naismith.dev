@@ -6,7 +6,7 @@
 		"cook": "20 m",
 		"ready_in": "1 h 5 m"
 	},
-	"images": ["../images/recipes/PizzaDough.jpg"],
+	"images": ["../images/recipes/pizza-dough.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"1 (.25 ounce) package active dry yeast",

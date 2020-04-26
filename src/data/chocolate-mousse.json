@@ -6,7 +6,7 @@
 		"cook": "",
 		"ready_in": ""
 	},
-	"images": ["../images/recipes/ChocolateMousse.jpg"],
+	"images": ["../images/recipes/chocolate-mousse.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"3 eggs, separated",

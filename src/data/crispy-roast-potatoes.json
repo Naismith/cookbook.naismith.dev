@@ -6,7 +6,7 @@
 		"cook": "50 m",
 		"ready_in": "1 h 5 m"
 	},
-	"images": ["../images/recipes/CrispyRoastPotatoes.jpg"],
+	"images": ["../images/recipes/crispy-roast-potatoes.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"2 lbs Potatoes",

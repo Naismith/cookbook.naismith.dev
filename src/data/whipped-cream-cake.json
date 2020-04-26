@@ -5,7 +5,7 @@
 		"cook": "",
 		"ready_in": ""
 	},
-	"images": ["../images/recipes/WhippedCreamCake.jpg"],
+	"images": ["../images/recipes/whipped-cream-cake.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"1/2 tsp salt",

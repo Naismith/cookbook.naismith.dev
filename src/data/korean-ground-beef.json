@@ -6,7 +6,7 @@
 		"cook": "20 m",
 		"ready_in": "35 m"
 	},
-	"images": ["../images/recipes/KoreanGroundBeef.jpg"],
+	"images": ["../images/recipes/korean-ground-beef.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"1 pound lean ground beef 90% lean",

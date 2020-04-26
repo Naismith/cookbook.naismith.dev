@@ -6,7 +6,7 @@
 		"cook": "1 h",
 		"ready_in": "1 h 45 m"
 	},
-	"images": ["../images/recipes/ChickenLasagna.jpg"],
+	"images": ["../images/recipes/chicken-lasagna.jpg"],
 	"stars": 4.5,
 	"ingredients": [
 		"12 lasagna noodles cooked and cooled",
