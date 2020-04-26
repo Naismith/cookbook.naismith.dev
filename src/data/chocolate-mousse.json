@@ -1,6 +1,6 @@
 {
 	"title": "Chocolate Mousse",
-	"categories": [],
+	"categories": ["dessert"],
 	"meta": {
 		"prep": "",
 		"cook": "",

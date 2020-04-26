@@ -1,10 +1,10 @@
 {
 	"title": "Crepes",
-	"categories": [],
+	"categories": ["breakfast"],
 	"meta": {
-		"prep": "",
-		"cook": "",
-		"ready_in": ""
+		"prep": "5 m",
+		"cook": "2 m",
+		"ready_in": "10 m"
 	},
 	"images": ["../images/recipes/crepes.jpg"],
 	"stars": 4.5,

@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 import Layout from '../components/layout';
 import SubHeading from '../components/recipe/SubHeading';
 import Ingredient from '../components/recipe/Ingredient';
@@ -18,26 +19,28 @@ const RecipePost = ({ data }) => {
 
 	return (
 		<Layout>
-			<Mast
-				image={recipe.images[0].childImageSharp.fluid}
-				meta={recipe.meta}
-				title={recipe.title}
-			/>
-			<SubHeading>Ingredients</SubHeading>
-			<Ingredient.List>
-				{recipe.ingredients.map((ingredient, i) => (
-					<Ingredient.Item key={i}>{ingredient}</Ingredient.Item>
-				))}
-			</Ingredient.List>
+			<Container>
+				<Mast
+					image={recipe.images[0].childImageSharp.fluid}
+					meta={recipe.meta}
+					title={recipe.title}
+				/>
+				<SubHeading>Ingredients</SubHeading>
+				<Ingredient.List>
+					{recipe.ingredients.map((ingredient, i) => (
+						<Ingredient.Item key={i}>{ingredient}</Ingredient.Item>
+					))}
+				</Ingredient.List>
 
-			<SubHeading>Directions</SubHeading>
-			<Direction.List>
-				{recipe.directions.map((direction, i) => (
-					<Direction.Item key={i}>
-						{i + 1}. {direction}
-					</Direction.Item>
-				))}
-			</Direction.List>
+				<SubHeading>Directions</SubHeading>
+				<Direction.List>
+					{recipe.directions.map((direction, i) => (
+						<Direction.Item key={i}>
+							{i + 1}. {direction}
+						</Direction.Item>
+					))}
+				</Direction.List>
+			</Container>
 		</Layout>
 	);
 };
@@ -53,7 +56,7 @@ export const query = graphql`
 			stars
 			images {
 				childImageSharp {
-					fluid(maxWidth: 300) {
+					fluid(maxWidth: 1920) {
 						...GatsbyImageSharpFluid
 					}
 				}

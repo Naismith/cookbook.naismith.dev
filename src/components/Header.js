@@ -1,6 +1,6 @@
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import Container from '@material-ui/core/Container';
 import React from 'react';
 
 const Background = styled.header`
@@ -21,19 +21,18 @@ const StyledLink = styled(Link)`
 	text-decoration: none;
 `;
 
-const Container = styled.div`
-	margin: 0 auto;
-	max-width: 960px;
-	padding: 1.45rem 1.0875rem;
+const StyledContainer = styled(Container)`
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 `;
 
 const Header = ({ siteTitle = '' }) => (
 	<Background>
-		<Container>
+		<StyledContainer>
 			<SiteTitle>
 				<StyledLink to="/">{siteTitle}</StyledLink>
 			</SiteTitle>
-		</Container>
+		</StyledContainer>
 	</Background>
 );
 

@@ -1,6 +1,6 @@
 {
 	"title": "Cheese Danish",
-	"categories": [],
+	"categories": ["dessert"],
 	"meta": {
 		"prep": "20 m",
 		"cook": "35 m",
