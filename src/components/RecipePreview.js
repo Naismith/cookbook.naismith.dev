@@ -1,5 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+
 import { Link } from 'gatsby';
 import { navigate } from '@reach/router';
 import Image from 'gatsby-image';
@@ -32,39 +40,59 @@ const Container = styled.article`
 	}
 `;
 
-const List = styled.section`
-	display: flex;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: space-between;
-	margin: 0 -0.5rem;
-`;
-
-const StyledLink = styled(Link)`
-	color: inherit;
-	text-decoration: none;
-`;
-
 const Title = styled.h3`
 	margin-top: 1rem;
 `;
 
-const Item = ({ recipe }) => {
+const PreviewCard = styled(Card)`
+	height: 100%;
+`;
+
+const RecipePreview = ({ recipe }) => {
 	const onClick = () => {
 		navigate(`/recipes/${recipe.fields.slug}`);
 	};
 
-	return (
-		<Container onClick={onClick}>
-			<StyledImage fluid={recipe.images[0].childImageSharp.fluid} />
-			<Title>{recipe.title}</Title>
-		</Container>
-	);
-};
+	const classes = {};
 
-const RecipePreview = {
-	Item,
-	List,
+	return (
+		<PreviewCard>
+			<CardActionArea onClick={onClick}>
+				<StyledImage fluid={recipe.images[0].childImageSharp.fluid} />
+				{/* <CardMedia
+					className={classes.media}
+					image="/static/images/cards/contemplative-reptile.jpg"
+					title="Contemplative Reptile"
+				/> */}
+				<CardContent>
+					<Typography gutterBottom variant="h5" component="h2">
+						{recipe.title}
+					</Typography>
+					{/* <Typography
+						variant="body2"
+						color="textSecondary"
+						component="p"
+					>
+						Lizards are a widespread group of squamate reptiles,
+						with over 6,000 species, ranging across all continents
+						except Antarctica
+					</Typography> */}
+				</CardContent>
+			</CardActionArea>
+			<CardActions>
+				<Button size="small" color="primary">
+					Share
+				</Button>
+				<Button size="small" color="primary">
+					Learn More
+				</Button>
+			</CardActions>
+		</PreviewCard>
+		// <Container onClick={onClick}>
+		// 	<StyledImage fluid={recipe.images[0].childImageSharp.fluid} />
+		// 	<Title>{recipe.title}</Title>
+		// </Container>
+	);
 };
 
 export default RecipePreview;
