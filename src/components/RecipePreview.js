@@ -4,11 +4,9 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-import { Link } from 'gatsby';
 import { navigate } from '@reach/router';
 import Image from 'gatsby-image';
 
@@ -79,14 +77,14 @@ const RecipePreview = ({ recipe }) => {
 					</Typography> */}
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
+			{/* <CardActions>
 				<Button size="small" color="primary">
 					Share
 				</Button>
 				<Button size="small" color="primary">
 					Learn More
 				</Button>
-			</CardActions>
+			</CardActions> */}
 		</PreviewCard>
 		// <Container onClick={onClick}>
 		// 	<StyledImage fluid={recipe.images[0].childImageSharp.fluid} />

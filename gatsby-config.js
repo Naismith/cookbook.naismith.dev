@@ -8,6 +8,15 @@ module.exports = {
 		`gatsby-plugin-react-helmet`,
 		`gatsby-transformer-json`,
 		{
+			resolve: `gatsby-plugin-material-ui`,
+			options: {
+				stylesProvider: {
+					injectFirst: true,
+				},
+			},
+		},
+		`gatsby-plugin-styled-components`,
+		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `data`,
