@@ -1,0 +1,50 @@
+{
+	"title": "Fried Chicken with Kimchi Slaw",
+	"categories": [],
+	"meta": {
+		"prep": "",
+		"cook": "",
+		"ready_in": ""
+	},
+	"images": ["../images/recipes/fried-chicken-kimchi-slaw.jpeg"],
+	"stars": 4.5,
+	"ingredients": [
+		"Slaw:",
+		"",
+		"1/2 cup mayo or aquafaba mayo substitute",
+		"1/2 cup gochujang Korean paste, Mother in Law's preferred brand",
+		"About 1 teaspoon LBS -- light brown sugar, Domino's pourable preferred brand, or honey",
+		"1 inch ginger root",
+		"1 clove garlic",
+		"1 tablespoon toasted sesame oil",
+		"A few scallions",
+		"1/2 head small savoy cabbage",
+		"1 small jar kimchi, store-bought, drained, Mother in Law's preferred brand",
+		"",
+		"Sauce:",
+		"",
+		"1 clove garlic, grated or sliced",
+		"1 inch ginger root, grated or minced",
+		"1/2 cup gochujang Korean paste",
+		"1/3 cup chicken stock",
+		"1 tablespoon LBS -- light brown sugar",
+		"About 1 tablespoon toasted sesame oil",
+		"Chicken & Batter:",
+		"",
+		"2 pounds boneless, skinless chicken thighs and/or chicken tenders or breast",
+		"Salt and pepper",
+		"1/2 cup vodka",
+		"1/2 cup cornstarch",
+		"1/2 cup AP flour",
+		"1 teaspoon baking powder"
+	],
+	"directions": [
+		"Gather your ingredients.",
+		"For frying: Heat oil in stove-top frying pot or Dutch oven to 350 degrees F or heat over medium to medium-high heat on large burner. Place a rack-lined baking sheet with paper towels or parchment under rack next to oil.",
+		"For the slaw: In a mixing bowl, whisk up mayo or aquafaba 'mayo,' gochujang, light brown sugar or honey. Then grate in ginger and garlic and whisk that in with the sesame oil. Chop whites and greens of a couple of scallions, shred or chop up the savoy cabbage and add the kimchi. Then toss to coat the slaw in dressing.",
+		"For the sauce: Place all ingredients in large skillet over medium heat, whisk to combine and reduce 3 to 4 minutes. Turn off heat.",
+		"For the chicken: Cut up chicken into 3 pieces per thigh, halve the tenders or quarter the breasts and season meat with salt and pepper.",
+		"Pour vodka into a large bowl and whisk in cornstarch, flour and baking powder. Coat chicken in batter and fry half a batch at a time to deep golden and cooked through, 3 to 4 minutes. Transfer to a rack to drain.",
+		"Toss chicken with sauce and top with scallions and sesame seeds."
+	]
+}
