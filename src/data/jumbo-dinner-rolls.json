@@ -1,0 +1,33 @@
+{
+	"title": "Jumbo Dinner Rolls",
+	"categories": [],
+	"meta": {
+		"prep": "20 m",
+		"cook": "15 m",
+		"ready_in": "1 h 35 m"
+	},
+	"images": ["../images/recipes/jumbo-dinner-rolls.jpg"],
+	"stars": 4.5,
+	"ingredients": [
+		"2 tablespoons instant yeast",
+		"1/2 cup warm water",
+		"2 cups milk",
+		"1/2 cup butter, cut into 8 pieces",
+		"1/2 cup granulated sugar",
+		"2 teaspoons salt",
+		"2 large eggs",
+		"6.5 to 7.5 cups all-purpose flour"
+	],
+	"directions": [
+		"Heat the milk and butter together in the microwave to scald the milk and melt the butter, 2 to 3 minutes. Let the mixture cool for 10 minutes.",
+		"In a large mixing bowl, combine milk/butter mixture, water, yeast, sugar, and salt. Let yeast rest for 5 minutes.",
+		"Add half the flour, and mix for 3 to 5 minutes.",
+		"Add the eggs, one at a time, and mix until incorporated.",
+		"Add the rest of the flour, 1/2 cup at a time, until a soft dough forms. The dough should be soft and elastic, but not sticky. Knead with your mixer or by hand for 5 minutes.",
+		"Let the dough rise in a greased bowl for 30 minutes.",
+		"After rising time has passed, divide the dough into 32 pieces. Roll each piece into a round roll, and place it on a greased, rimmed baking sheet.",
+		"Once all the dough is shaped, cover the rolls, and let them rise for another 30 minutes.",
+		"Once the rolls have at least doubled in size, bake at 400 degrees F. for 14 to 18 minutes, or until the tops are nice and golden.",
+		"Remove from the oven, and butter the tops of the rolls while still hot. Serve warm or at room temperature."
+	]
+}

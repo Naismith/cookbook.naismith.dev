@@ -1,0 +1,36 @@
+{
+	"title": "Brownie Cookie",
+	"categories": [],
+	"meta": {
+		"prep": "10 m",
+		"cook": "10 m",
+		"ready_in": "20 m"
+	},
+	"images": ["../images/recipes/brownie-cookie.jpg"],
+	"stars": 4.5,
+	"ingredients": [
+		"1/2 cup butter",
+		"12 oz 60% cocoa chocolate could be chips or bars broken up",
+		"2 large eggs",
+		"3/4 cup sugar",
+		"1/2 cup brown sugar",
+		"1 TBS vanilla",
+		"3/4 cup flour",
+		"3 TBS cocoa powder often I use Special Dark by Hershey's but you can you which you choose",
+		"3/4 teaspoon baking powder",
+		"Pinch of salt"
+	],
+	"directions": [
+		"In a small pot, melt your butter over med-low heat. Add in your chocolate YOu don't need to leave it on the heat too long. it will begin to melt, use a small whisk or a spoon to stir until smooth, taking it on and off the heat as you do being careful to not burn it. (At no point do you want it bubbling) You want the butter-chocolate mixture to be smooth and combined.",
+		"Remove the pot from the heat and set aside.",
+		"In your mixing bowl, combine eggs, sugar, brown sugar and vanilla. Mix until combined and then mix another solid 4-5 minutes...allowing the batter base to thicken.",
+		"Add in the melted butter and chocolate mixture and mix until just combined.",
+		"Add in flour, cocoa powder, baking powder and salt and mix just until incorporated.",
+		"Allow batter to chill for 20 minutes.",
+		"When ready to bake preheat oven to 350 and line your baking sheet with parchment paper or a silicone baking mat.",
+		"Us a small cookie scoop (or a tablespoon) and drop equal amounts of dough 1 1/2 inches apart on your baking sheet.",
+		"Bake for 8-10 minutes or until brownie cookies are cracked on top.",
+		"Allow them to sit on the baking sheet for 2 minutes, then using a small cookie spatula, move them to a cooling rack."
+	],
+	"source": "https://soufflebombay.com/brownie-cookies-recipe/"
+}
