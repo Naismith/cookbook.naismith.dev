@@ -7,6 +7,14 @@ import Image from 'gatsby-image';
 const StyledImage = styled(Image)`
 	height: 20vw;
 	width: 100%;
+
+	@media screen and (max-width: 900px) {
+		height: 40vw;
+	}
+
+	@media screen and (max-width: 600px) {
+		height: 50vw;
+	}
 `;
 
 const Container = styled.article`
@@ -14,6 +22,14 @@ const Container = styled.article`
 	padding: 0 0.5rem;
 	cursor: pointer;
 	min-width: 33%;
+
+	@media screen and (max-width: 900px) {
+		min-width: 50%;
+	}
+
+	@media screen and (max-width: 600px) {
+		min-width: 100%;
+	}
 `;
 
 const List = styled.section`
