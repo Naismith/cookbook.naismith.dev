@@ -14,6 +14,13 @@ const IndexPage = ({ data }) => {
 			<Container>
 				<Grid container alignItems="stretch" spacing={3}>
 					{data.recipes.nodes
+						.sort((a, b) => {
+							const titleA = a.title.toLowerCase();
+							const titleB = b.title.toLowerCase();
+							if (titleA < titleB) return -1;
+							if (titleA > titleB) return 1;
+							return 0;
+						})
 						// .filter((recipe) => {
 						// 	return recipe.title
 						// 		.toLowerCase()
