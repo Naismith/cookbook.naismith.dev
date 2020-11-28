@@ -1,29 +1,29 @@
 {
-	"title": "Pull Apart Christmas Tree",
-	"categories": [],
-	"meta": {
-		"prep": "",
-		"cook": "",
-		"ready_in": ""
-	},
-	"images": ["../images/recipes/pull-apart-christmas-tree.jpg"],
-	"stars": 4.5,
-	"ingredients": [
-		"1 lb. refrigerated pizza dough",
-		"Egg wash (1 egg whisked with 1 tbsp water)",
-		"7 mozzarella sticks",
-		"1/4 c. melted butter",
-		"1/2 c. finely grated Parmesan",
-		"1 tbsp. Thinly sliced basil",
-		"1 tbsp. chopped parsley",
-		"1 tbsp. chopped rosemary",
-		"Marinara, warmed (for serving)"
-	],
-	"directions": [
-		"Preheat oven to 450°. Line a large baking sheet with parchment paper. Cut mozzarella sticks into 1” pieces and set aside.",
-		"On a floured surface, divide pizza dough into two pieces. Stretch and roll each piece of dough into a long rectangle, then cut dough into 2” squares (you’ll need 33 total).",
-		"Wrap a dough square around each piece of mozzarella, forming a tightly sealed ball. Place balls seam-side down on the baking sheet in the shape of a Christmas tree (they should be touching). Brush egg wash on dough balls and bake until golden, 15 to 20 minutes.",
-		"Meanwhile, whisk together melted butter, Parmesan and herbs. Brush on baked pizza balls. Serve warm with marinara for dipping."
-	],
-	"source": "https://www.delish.com/cooking/recipe-ideas/recipes/a50528/pull-apart-christmas-tree-recipe/"
+    "title": "Pull Apart Christmas Tree",
+    "categories": [],
+    "meta": {
+        "prep": "",
+        "cook": "",
+        "ready_in": ""
+    },
+    "images": ["../images/recipes/pull-apart-christmas-tree.jpg"],
+    "stars": 4.5,
+    "ingredients": [
+        "1 lb. refrigerated pizza dough",
+        "Egg wash (1 egg whisked with 1 tbsp water)",
+        "7 mozzarella sticks",
+        "1/4 c. melted butter",
+        "1/2 c. finely grated Parmesan",
+        "1 tbsp. Thinly sliced basil",
+        "1 tbsp. chopped parsley",
+        "1 tbsp. chopped rosemary",
+        "Marinara, warmed (for serving)"
+    ],
+    "directions": [
+        "Preheat oven to 450°. Line a large baking sheet with parchment paper. Cut mozzarella sticks into 1” pieces and set aside.",
+        "On a floured surface, divide pizza dough into two pieces. Stretch and roll each piece of dough into a long rectangle, then cut dough into 2” squares (you’ll need 33 total).",
+        "Wrap a dough square around each piece of mozzarella, forming a tightly sealed ball. Place balls seam-side down on the baking sheet in the shape of a Christmas tree (they should be touching). Brush egg wash on dough balls and bake until golden, 15 to 20 minutes.",
+        "Meanwhile, whisk together melted butter, Parmesan and herbs. Brush on baked pizza balls. Serve warm with marinara for dipping."
+    ],
+    "source": "https://www.delish.com/cooking/recipe-ideas/recipes/a50528/pull-apart-christmas-tree-recipe/"
 }

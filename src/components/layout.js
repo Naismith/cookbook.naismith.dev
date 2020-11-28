@@ -9,8 +9,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import {
-	ThemeProvider as MuiThemeProvider,
-	CssBaseline,
+    ThemeProvider as MuiThemeProvider,
+    CssBaseline,
 } from '@material-ui/core';
 import { useStaticQuery, graphql } from 'gatsby';
 import theme from '../common/theme';
@@ -28,31 +28,31 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Layout = ({ children }) => {
-	const data = useStaticQuery(graphql`
-		query SiteTitleQuery {
-			site {
-				siteMetadata {
-					title
-				}
-			}
-		}
-	`);
+    const data = useStaticQuery(graphql`
+        query SiteTitleQuery {
+            site {
+                siteMetadata {
+                    title
+                }
+            }
+        }
+    `);
 
-	return (
-		<MuiThemeProvider theme={theme}>
-			<ThemeProvider theme={theme}>
-				<CssBaseline />
-				<GlobalStyle />
-				<Header siteTitle={data.site.siteMetadata.title} />
+    return (
+        <MuiThemeProvider theme={theme}>
+            <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <GlobalStyle />
+                <Header siteTitle={data.site.siteMetadata.title} />
 
-				<main>{children}</main>
-			</ThemeProvider>
-		</MuiThemeProvider>
-	);
+                <main>{children}</main>
+            </ThemeProvider>
+        </MuiThemeProvider>
+    );
 };
 
 Layout.propTypes = {
-	children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 };
 
 export default Layout;

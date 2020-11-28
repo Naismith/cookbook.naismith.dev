@@ -1,28 +1,28 @@
 {
-	"title": "Creamy Pasta Primavera",
-	"categories": ["dinner"],
-	"meta": {
-		"prep": "",
-		"cook": "",
-		"ready_in": ""
-	},
-	"images": ["../images/recipes/creamy-pasta-primavera.jpg"],
-	"stars": 4.5,
-	"ingredients": [
-		"200 g pasta",
-		"75 g asparagus ~6 spears",
-		"50 g green beans ~1/2 cup",
-		"100 g tenderstem broccoli ~6 spears",
-		"2 tbsp cream cheese heaped",
-		"2 tbsp milk",
-		"75 g grated mozzarella cheese ~2/3 cup",
-		"1 large tomato chopped",
-		"Salt",
-		"Black pepper"
-	],
-	"directions": [
-		"Add the pasta to a large pan of boiling water, and cook for around 10 minutes, until almost cooked. Meanwhile, snap the ends off the asparagus, and top and tail the green beans. When the pasta is almost ready, add the asparagus, green beans and broccoli to the pan for the final few minutes of cooking time (you still want them to keep a bit of crunch).",
-		"When the pasta is cooked, drain the pan, and turn the heat down very low. Add the remaining ingredients, and cook, stirring, over the low heat for another couple of minutes until the cheeses have melted. Serve warm."
-	],
-	"source": "https://www.easycheesyvegetarian.com/15-minute-creamy-pasta-primavera/"
+    "title": "Creamy Pasta Primavera",
+    "categories": ["dinner"],
+    "meta": {
+        "prep": "",
+        "cook": "",
+        "ready_in": ""
+    },
+    "images": ["../images/recipes/creamy-pasta-primavera.jpg"],
+    "stars": 4.5,
+    "ingredients": [
+        "200 g pasta",
+        "75 g asparagus ~6 spears",
+        "50 g green beans ~1/2 cup",
+        "100 g tenderstem broccoli ~6 spears",
+        "2 tbsp cream cheese heaped",
+        "2 tbsp milk",
+        "75 g grated mozzarella cheese ~2/3 cup",
+        "1 large tomato chopped",
+        "Salt",
+        "Black pepper"
+    ],
+    "directions": [
+        "Add the pasta to a large pan of boiling water, and cook for around 10 minutes, until almost cooked. Meanwhile, snap the ends off the asparagus, and top and tail the green beans. When the pasta is almost ready, add the asparagus, green beans and broccoli to the pan for the final few minutes of cooking time (you still want them to keep a bit of crunch).",
+        "When the pasta is cooked, drain the pan, and turn the heat down very low. Add the remaining ingredients, and cook, stirring, over the low heat for another couple of minutes until the cheeses have melted. Serve warm."
+    ],
+    "source": "https://www.easycheesyvegetarian.com/15-minute-creamy-pasta-primavera/"
 }

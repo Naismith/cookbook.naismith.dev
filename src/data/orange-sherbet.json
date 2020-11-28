@@ -1,25 +1,25 @@
 {
-	"title": "Orange Sherbet",
-	"categories": [],
-	"meta": {
-		"prep": "30 m",
-		"cook": "15 m",
-		"ready_in": "4 h"
-	},
-	"images": ["../images/recipes/orange-sherbet.jpeg"],
-	"stars": 4.5,
-	"ingredients": [
-		"7 ounces sugar",
-		"1 1/2 tablespoons finely grated orange zest",
-		"1/4 teaspoon kosher salt",
-		"2 cups freshly squeezed orange juice, approximately 2 to 3 pounds oranges",
-		"1 tablespoon freshly squeezed lemon juice",
-		"1 teaspoon vanilla extract",
-		"1 1/2 cups very cold whole milk"
-	],
-	"directions": [
-		"In the bowl of a food processor combine all of the ingredients except the milk and process until the sugar is dissolved, approximately 1 minute. Transfer the mixture to a mixing bowl and whisk in the milk. Cover the bowl and place in the refrigerator until the mixture reaches 40 degrees F or below, approximately 1 hour.",
-		"Pour the mixture into an ice cream maker and process until it is the consistency of soft serve ice cream. You may serve now or transfer to a lidded container and place in freezer until firm, approximately 3 hours."
-	],
-	"source": "https://www.foodnetwork.com/recipes/alton-brown/orange-sherbet-recipe-1945337"
+    "title": "Orange Sherbet",
+    "categories": [],
+    "meta": {
+        "prep": "30 m",
+        "cook": "15 m",
+        "ready_in": "4 h"
+    },
+    "images": ["../images/recipes/orange-sherbet.jpeg"],
+    "stars": 4.5,
+    "ingredients": [
+        "7 ounces sugar",
+        "1 1/2 tablespoons finely grated orange zest",
+        "1/4 teaspoon kosher salt",
+        "2 cups freshly squeezed orange juice, approximately 2 to 3 pounds oranges",
+        "1 tablespoon freshly squeezed lemon juice",
+        "1 teaspoon vanilla extract",
+        "1 1/2 cups very cold whole milk"
+    ],
+    "directions": [
+        "In the bowl of a food processor combine all of the ingredients except the milk and process until the sugar is dissolved, approximately 1 minute. Transfer the mixture to a mixing bowl and whisk in the milk. Cover the bowl and place in the refrigerator until the mixture reaches 40 degrees F or below, approximately 1 hour.",
+        "Pour the mixture into an ice cream maker and process until it is the consistency of soft serve ice cream. You may serve now or transfer to a lidded container and place in freezer until firm, approximately 3 hours."
+    ],
+    "source": "https://www.foodnetwork.com/recipes/alton-brown/orange-sherbet-recipe-1945337"
 }
