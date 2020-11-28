@@ -7,11 +7,15 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
+import {
+	ThemeProvider as MuiThemeProvider,
+	CssBaseline,
+} from '@material-ui/core';
 import { useStaticQuery, graphql } from 'gatsby';
+import theme from '../common/theme';
 
 import Header from './Header';
-import './layout.css';
 
 const GlobalStyle = createGlobalStyle`
 	@media print {
@@ -20,12 +24,6 @@ const GlobalStyle = createGlobalStyle`
 			margin: 1cm;
 			padding: 1rem;
 		}
-	}
-`;
-
-const Footer = styled.footer`
-	@media print {
-		display: none;
 	}
 `;
 
@@ -41,17 +39,15 @@ const Layout = ({ children }) => {
 	`);
 
 	return (
-		<>
-			<GlobalStyle />
-			<Header siteTitle={data.site.siteMetadata.title} />
+		<MuiThemeProvider theme={theme}>
+			<ThemeProvider theme={theme}>
+				<CssBaseline />
+				<GlobalStyle />
+				<Header siteTitle={data.site.siteMetadata.title} />
 
-			<main>{children}</main>
-			<Footer>
-				© {new Date().getFullYear()}, Built with
-				{` `}
-				<a href="https://www.gatsbyjs.org">Gatsby</a>
-			</Footer>
-		</>
+				<main>{children}</main>
+			</ThemeProvider>
+		</MuiThemeProvider>
 	);
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Typography } from '@material-ui/core';
 import MetaInfo from '../MetaInfo';
 import Image from 'gatsby-image';
 import Box from '../Box';
@@ -26,14 +27,6 @@ const StyledMast = styled(Image)`
 	}
 `;
 
-const Title = styled.h1`
-	text-align: center;
-
-	@media print {
-		font-size: 1.75rem;
-	}
-`;
-
 const Mast = ({ title, meta, image }) => (
 	<Container>
 		<StyledMast fluid={image} />
@@ -44,7 +37,9 @@ const Mast = ({ title, meta, image }) => (
 			justifyContent="center"
 			flex={1}
 		>
-			<Title>{title}</Title>
+			<Typography align="center" variant="h2" component="h1">
+				{title}
+			</Typography>
 
 			<MetaInfo
 				prep={meta.prep}

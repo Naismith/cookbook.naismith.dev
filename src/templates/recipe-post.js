@@ -9,14 +9,6 @@ import Mast from '../components/recipe/Mast';
 const RecipePost = ({ data }) => {
 	const { recipe } = data;
 
-	console.log(recipe);
-	// try {
-	// 	const image = recipe.images[0].childImageSharp.fluid;
-	// } catch (e) {
-	// 	debugger;
-	// 	console.log(recipe);
-	// }
-
 	return (
 		<Layout>
 			<Container>
