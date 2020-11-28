@@ -1,29 +1,29 @@
 {
-    "title": "Crepes",
-    "categories": ["breakfast", "sweet"],
-    "meta": {
-        "prep": "5 m",
-        "cook": "2 m",
-        "ready_in": "10 m"
-    },
-    "images": ["../images/recipes/crepes.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "1 cup flour",
-        "1 1/2 cups milk",
-        "2 eggs",
-        "1 tsp vegetable oil",
-        "1/4 tsp salt"
-    ],
-    "directions": [
-        "Combine flour, milk, eggs, and oil.",
-        "Add salt.",
-        "Heat a lightly greased 6 inch skillet; remove from heat.",
-        "Spoon in 2 Tbsp batter; lift and tilt skillet to spread evenly.",
-        "Return to heat; brown on one side only.",
-        "To remove, invert pan over paper toweling.",
-        "Repeat with remaining batter.",
-        "Fill with your favorite filling."
-    ],
-    "source": "https://www.food.com/recipe/crepes-18410"
+  "title": "Crepes",
+  "categories": ["breakfast", "sweet"],
+  "meta": {
+    "prep": "5 m",
+    "cook": "2 m",
+    "ready_in": "10 m"
+  },
+  "images": ["../images/recipes/crepes.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "1 cup flour",
+    "1 1/2 cups milk",
+    "2 eggs",
+    "1 tsp vegetable oil",
+    "1/4 tsp salt"
+  ],
+  "directions": [
+    "Combine flour, milk, eggs, and oil.",
+    "Add salt.",
+    "Heat a lightly greased 6 inch skillet; remove from heat.",
+    "Spoon in 2 Tbsp batter; lift and tilt skillet to spread evenly.",
+    "Return to heat; brown on one side only.",
+    "To remove, invert pan over paper toweling.",
+    "Repeat with remaining batter.",
+    "Fill with your favorite filling."
+  ],
+  "source": "https://www.food.com/recipe/crepes-18410"
 }

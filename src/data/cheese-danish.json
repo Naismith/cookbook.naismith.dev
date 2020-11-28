@@ -1,27 +1,27 @@
 {
-    "title": "Cheese Danish",
-    "categories": ["sweet"],
-    "meta": {
-        "prep": "20 m",
-        "cook": "35 m",
-        "ready_in": "1 h"
-    },
-    "images": ["../images/recipes/cheese-danish.jpeg"],
-    "stars": 4.5,
-    "ingredients": [
-        "2 cans ready to use refrigerated crescent rolls",
-        "2 8-ounce packages cream cheese",
-        "1 cup sugar",
-        "1 teaspoon vanilla extract",
-        "1 egg",
-        "1 egg white"
-    ],
-    "directions": [
-        "Preheat oven to 350 degrees Fahrenheit degrees and grease a 13X9-inch baking pan.",
-        "Lay a pack of crescent rolls in the pan and pinch the openings together.",
-        "Beat the cream cheese, sugar, vanilla, and egg together until smooth.",
-        "Spread the mixture over the crescent rolls evenly and then lay the second pack of crescent rolls on top of the cheese mixture and brush with egg white.",
-        "Bake for 35-45 minutes until the top is golden brown.",
-        "Top with glaze after cooling for 20 minutes."
-    ]
+  "title": "Cheese Danish",
+  "categories": ["sweet"],
+  "meta": {
+    "prep": "20 m",
+    "cook": "35 m",
+    "ready_in": "1 h"
+  },
+  "images": ["../images/recipes/cheese-danish.jpeg"],
+  "stars": 4.5,
+  "ingredients": [
+    "2 cans ready to use refrigerated crescent rolls",
+    "2 8-ounce packages cream cheese",
+    "1 cup sugar",
+    "1 teaspoon vanilla extract",
+    "1 egg",
+    "1 egg white"
+  ],
+  "directions": [
+    "Preheat oven to 350 degrees Fahrenheit degrees and grease a 13X9-inch baking pan.",
+    "Lay a pack of crescent rolls in the pan and pinch the openings together.",
+    "Beat the cream cheese, sugar, vanilla, and egg together until smooth.",
+    "Spread the mixture over the crescent rolls evenly and then lay the second pack of crescent rolls on top of the cheese mixture and brush with egg white.",
+    "Bake for 35-45 minutes until the top is golden brown.",
+    "Top with glaze after cooling for 20 minutes."
+  ]
 }

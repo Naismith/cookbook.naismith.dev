@@ -1,40 +1,40 @@
 {
-    "title": "Farmhouse Apple Bread",
-    "categories": ["sweet"],
-    "meta": {
-        "prep": "",
-        "cook": "25 m",
-        "ready_in": ""
-    },
-    "images": ["../images/recipes/farmhouse-apple-bread.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "1/3 cup light brown sugar",
-        "1 tsp ground cinnamon",
-        "2/3 cup white sugar",
-        "1/2 cup butter, softened",
-        "2 eggs",
-        "1 1/2 tsp vanilla extract",
-        "1 1/2 cups all-purpose flour",
-        "1 3/4 tsp baking powder",
-        "1/2 cup milk",
-        "2 apples, peeled and chopped (any kind)",
-        "For Creme Glaze:",
-        "",
-        "1/2 cup powdered sugar",
-        "2 tbsp of milk or cream"
-    ],
-    "directions": [
-        "Preheat oven to 350 degrees.",
-        "Use a 9×5-inch loaf pan and spray with non-stick spray or line with foil and spray with non-stick spray to get out easily for slicing.",
-        "Mix brown sugar and cinnamon together in a bowl. Set aside.",
-        "In another medium-sized bowl, beat white sugar and butter together using an electric mixer until smooth and creamy. Beat in eggs, 1 at a time, until blended in; add in vanilla extract.",
-        "Combine & whisk flour and baking powder together in another bowl and add into creamed butter mixture and stir until blended. Mix milk into batter until smooth.",
-        "Pour half the batter into the prepared loaf pan; add half the apple mixture, then half the brown sugar/cinnamon mixture. Lightly pat apple mixture into batter.",
-        "Pour the remaining batter over apple layer and top with remaining apple mixture, then the remaining brown sugar/cinnamon mixture.",
-        "Lightly pat apples into batter; swirl brown sugar mixture through apples using knife or spoon. Bake until a toothpick inserted in the center of the loaf comes out clean, approximately 50-60 minutes.",
-        "For the glaze, mix powdered sugar and milk or cream together until combined well.",
-        "Let cool for about 15 minutes before drizzling with glaze."
-    ],
-    "source": "https://diyways.com/easy-as-pie-this-farmhouse-apple-bread-is-so-addicting/"
+  "title": "Farmhouse Apple Bread",
+  "categories": ["sweet"],
+  "meta": {
+    "prep": "",
+    "cook": "25 m",
+    "ready_in": ""
+  },
+  "images": ["../images/recipes/farmhouse-apple-bread.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "1/3 cup light brown sugar",
+    "1 tsp ground cinnamon",
+    "2/3 cup white sugar",
+    "1/2 cup butter, softened",
+    "2 eggs",
+    "1 1/2 tsp vanilla extract",
+    "1 1/2 cups all-purpose flour",
+    "1 3/4 tsp baking powder",
+    "1/2 cup milk",
+    "2 apples, peeled and chopped (any kind)",
+    "For Creme Glaze:",
+    "",
+    "1/2 cup powdered sugar",
+    "2 tbsp of milk or cream"
+  ],
+  "directions": [
+    "Preheat oven to 350 degrees.",
+    "Use a 9×5-inch loaf pan and spray with non-stick spray or line with foil and spray with non-stick spray to get out easily for slicing.",
+    "Mix brown sugar and cinnamon together in a bowl. Set aside.",
+    "In another medium-sized bowl, beat white sugar and butter together using an electric mixer until smooth and creamy. Beat in eggs, 1 at a time, until blended in; add in vanilla extract.",
+    "Combine & whisk flour and baking powder together in another bowl and add into creamed butter mixture and stir until blended. Mix milk into batter until smooth.",
+    "Pour half the batter into the prepared loaf pan; add half the apple mixture, then half the brown sugar/cinnamon mixture. Lightly pat apple mixture into batter.",
+    "Pour the remaining batter over apple layer and top with remaining apple mixture, then the remaining brown sugar/cinnamon mixture.",
+    "Lightly pat apples into batter; swirl brown sugar mixture through apples using knife or spoon. Bake until a toothpick inserted in the center of the loaf comes out clean, approximately 50-60 minutes.",
+    "For the glaze, mix powdered sugar and milk or cream together until combined well.",
+    "Let cool for about 15 minutes before drizzling with glaze."
+  ],
+  "source": "https://diyways.com/easy-as-pie-this-farmhouse-apple-bread-is-so-addicting/"
 }

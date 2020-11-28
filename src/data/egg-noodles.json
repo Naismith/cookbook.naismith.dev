@@ -1,26 +1,26 @@
 {
-    "title": "Egg Noodles",
-    "categories": [],
-    "meta": {
-        "prep": "15 m",
-        "cook": "3 m",
-        "ready_in": "38 m"
-    },
-    "images": ["../images/recipes/egg-noodles.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "2 cups flour",
-        "1/8 teaspoon salt or to taste",
-        "2 eggs",
-        "1/3 cup milk",
-        "1 tablespoon butter softened",
-        "1/4 cup flour for dusting"
-    ],
-    "directions": [
-        "In a large bowl, stir flour together with salt. Set aside.",
-        "Whisk together eggs in a small bowl. Add eggs, milk and butter to flour mixture. Stir with a fork at first and then mix well with your hands.",
-        "Knead dough on a floured surface adding more flour a little bit at a time if it's sticky.  Continue kneading about 5 minutes or until smooth. Wrap in plastic wrap and rest for 20 minutes.",
-        "On a lightly floured surface, roll dough to 1/4 (or 1/8 inch) inch thickness. Cut into strips and dust with flour.",
-        "To prepare, add noodles to a large pot of boiling, salted water and cook about 3 minutes.  Serve with butter or your favorite pasta sauce."
-    ]
+  "title": "Egg Noodles",
+  "categories": [],
+  "meta": {
+    "prep": "15 m",
+    "cook": "3 m",
+    "ready_in": "38 m"
+  },
+  "images": ["../images/recipes/egg-noodles.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "2 cups flour",
+    "1/8 teaspoon salt or to taste",
+    "2 eggs",
+    "1/3 cup milk",
+    "1 tablespoon butter softened",
+    "1/4 cup flour for dusting"
+  ],
+  "directions": [
+    "In a large bowl, stir flour together with salt. Set aside.",
+    "Whisk together eggs in a small bowl. Add eggs, milk and butter to flour mixture. Stir with a fork at first and then mix well with your hands.",
+    "Knead dough on a floured surface adding more flour a little bit at a time if it's sticky.  Continue kneading about 5 minutes or until smooth. Wrap in plastic wrap and rest for 20 minutes.",
+    "On a lightly floured surface, roll dough to 1/4 (or 1/8 inch) inch thickness. Cut into strips and dust with flour.",
+    "To prepare, add noodles to a large pot of boiling, salted water and cook about 3 minutes.  Serve with butter or your favorite pasta sauce."
+  ]
 }

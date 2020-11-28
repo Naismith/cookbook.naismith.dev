@@ -1,30 +1,30 @@
 {
-    "title": "BBQ-Glazed Meatloaf",
-    "categories": [],
-    "meta": {
-        "prep": "15 m",
-        "cook": "50 m",
-        "ready_in": "1 h 5 m"
-    },
-    "images": ["../images/recipes/bbq-glazed-meatloaf.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "2 pounds ground beef, or pork veal",
-        "1/2 cup panko bread crumbs",
-        "1/2 cup white onion, diced",
-        "2 large eggs",
-        "1/2 cup Barbecue Sauce",
-        "1/2 cup parmesan cheese, grated",
-        "1 tbsp garlic, chopped",
-        "1 tsp ground black pepper",
-        "2 tbsp Worcestershire sauce",
-        "1 tsp kosher salt",
-        "1/2 cup Barbecue Sauce for brushing meatloaf"
-    ],
-    "directions": [
-        "Preheat oven to 350 degrees F. Mix ground meat, bread crumbs, onion, egg, ½ cup SBR Original Barbecue Sauce, cheese and seasonings in large bowl or stand mixer with paddle attachment. Mix until ingredients are incorporated.",
-        "Shape into a loaf on shallow baking pan. Brush remaining ½ cup barbecue sauce over top.",
-        "Bake until minimum internal temperature is 165 degrees F in center (approximately 45-50 minutes). Let stand 5 minutes before serving."
-    ],
-    "source": "https://www.sweetbabyrays.com/Recipes/BBQ-Glazed-Meatloaf"
+  "title": "BBQ-Glazed Meatloaf",
+  "categories": [],
+  "meta": {
+    "prep": "15 m",
+    "cook": "50 m",
+    "ready_in": "1 h 5 m"
+  },
+  "images": ["../images/recipes/bbq-glazed-meatloaf.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "2 pounds ground beef, or pork veal",
+    "1/2 cup panko bread crumbs",
+    "1/2 cup white onion, diced",
+    "2 large eggs",
+    "1/2 cup Barbecue Sauce",
+    "1/2 cup parmesan cheese, grated",
+    "1 tbsp garlic, chopped",
+    "1 tsp ground black pepper",
+    "2 tbsp Worcestershire sauce",
+    "1 tsp kosher salt",
+    "1/2 cup Barbecue Sauce for brushing meatloaf"
+  ],
+  "directions": [
+    "Preheat oven to 350 degrees F. Mix ground meat, bread crumbs, onion, egg, ½ cup SBR Original Barbecue Sauce, cheese and seasonings in large bowl or stand mixer with paddle attachment. Mix until ingredients are incorporated.",
+    "Shape into a loaf on shallow baking pan. Brush remaining ½ cup barbecue sauce over top.",
+    "Bake until minimum internal temperature is 165 degrees F in center (approximately 45-50 minutes). Let stand 5 minutes before serving."
+  ],
+  "source": "https://www.sweetbabyrays.com/Recipes/BBQ-Glazed-Meatloaf"
 }

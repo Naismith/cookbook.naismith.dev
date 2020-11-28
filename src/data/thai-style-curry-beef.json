@@ -1,33 +1,33 @@
 {
-    "title": "Thai-Style Curry Beef and Pasta",
-    "categories": [],
-    "meta": {
-        "prep": "20 m",
-        "cook": "15 m",
-        "ready_in": "35 m"
-    },
-    "images": ["../images/recipes/thai-style-curry-beef.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "1 box Dreamfields Spaghetti",
-        "1 lb. boneless beef top sirloin steak",
-        "2 clove garlic",
-        "2 tbsp. canola or vegetable oil",
-        "3 c. broccoli florets",
-        "1 medium bell pepper",
-        "1 medium onion",
-        "2 tsp. minced fresh ginger",
-        "1 serrano or other hot chili pepper",
-        "1 can light coconut milk",
-        "1/4 c. red curry chili paste",
-        "Finely chopped roasted peanuts (optional)"
-    ],
-    "directions": [
-        "Cook pasta according to package directions. Drain; return to pan.",
-        "Meanwhile, cut steak in half lengthwise, then crosswise into 1/4-inch-thick slices. Toss with garlic; set aside.",
-        "Heat 1 1/2 teaspoons oil in large nonstick skillet over medium-high heat. Add half of beef; stir-fry 1 to 2 minutes or until outside of beef is no longer pink. Remove from skillet. Repeat with remaining beef and 1 1/2 teaspoons oil. Remove from skillet.",
-        "Add remaining 1 tablespoon oil to skillet. Add broccoli, bell pepper, and onion. Cook and stir 1 minute. Add 1 to 2 tablespoons water; continue cooking and stirring 1 minute. Stir in ginger and chili pepper. Add combined coconut milk and curry paste to skillet. Bring to boil; reduce heat and simmer 3 to 5 minutes until vegetables are crisp-tender. Return beef to skillet; remove from heat.",
-        "Toss beef mixture with pasta. Garnish with peanuts, if desired."
-    ],
-    "source": "https://www.goodhousekeeping.com/food-recipes/a13674/thai-style-curry-beef-pasta-recipe-df0812/"
+  "title": "Thai-Style Curry Beef and Pasta",
+  "categories": [],
+  "meta": {
+    "prep": "20 m",
+    "cook": "15 m",
+    "ready_in": "35 m"
+  },
+  "images": ["../images/recipes/thai-style-curry-beef.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "1 box Dreamfields Spaghetti",
+    "1 lb. boneless beef top sirloin steak",
+    "2 clove garlic",
+    "2 tbsp. canola or vegetable oil",
+    "3 c. broccoli florets",
+    "1 medium bell pepper",
+    "1 medium onion",
+    "2 tsp. minced fresh ginger",
+    "1 serrano or other hot chili pepper",
+    "1 can light coconut milk",
+    "1/4 c. red curry chili paste",
+    "Finely chopped roasted peanuts (optional)"
+  ],
+  "directions": [
+    "Cook pasta according to package directions. Drain; return to pan.",
+    "Meanwhile, cut steak in half lengthwise, then crosswise into 1/4-inch-thick slices. Toss with garlic; set aside.",
+    "Heat 1 1/2 teaspoons oil in large nonstick skillet over medium-high heat. Add half of beef; stir-fry 1 to 2 minutes or until outside of beef is no longer pink. Remove from skillet. Repeat with remaining beef and 1 1/2 teaspoons oil. Remove from skillet.",
+    "Add remaining 1 tablespoon oil to skillet. Add broccoli, bell pepper, and onion. Cook and stir 1 minute. Add 1 to 2 tablespoons water; continue cooking and stirring 1 minute. Stir in ginger and chili pepper. Add combined coconut milk and curry paste to skillet. Bring to boil; reduce heat and simmer 3 to 5 minutes until vegetables are crisp-tender. Return beef to skillet; remove from heat.",
+    "Toss beef mixture with pasta. Garnish with peanuts, if desired."
+  ],
+  "source": "https://www.goodhousekeeping.com/food-recipes/a13674/thai-style-curry-beef-pasta-recipe-df0812/"
 }

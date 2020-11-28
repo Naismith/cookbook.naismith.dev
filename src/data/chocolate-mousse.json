@@ -1,32 +1,32 @@
 {
-    "title": "Chocolate Mousse",
-    "categories": ["sweet"],
-    "meta": {
-        "prep": "",
-        "cook": "",
-        "ready_in": ""
-    },
-    "images": ["../images/recipes/chocolate-mousse.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "3 eggs, separated",
-        "3/4 cup sugar",
-        "2 28g squares of Lindt 90% dark chocolate",
-        "1/4 cup of water",
-        "1/2 envelope unflavoured gelatin",
-        "1/4 cup vanilla",
-        "1 cup whipping cream",
-        "1/4 cup sugar",
-        "shaved chocolate for garnish"
-    ],
-    "directions": [
-        "Heat beaten egg yolks and 3/4 cup sugar in top of double boiler until sugar is dissolved.",
-        "Stir in chocolate until melted; continue cooking until mixture begins to thicken.",
-        "Soften gelatin in water; add to chocolate mixture, stir until dissolved.",
-        "Remove from heat; add vanilla; place in iced water to cool.",
-        "Beat cream with 2 tbsp sugar until stiff.",
-        "Whip egg white with 1 tbsp sugar until stiff, but not dry.",
-        "When chocolate mixture begins to thicken, fold in cream and egg white, until well blended.",
-        "Pour into individual serving glasses, garnish with shaved chocolate"
-    ]
+  "title": "Chocolate Mousse",
+  "categories": ["sweet"],
+  "meta": {
+    "prep": "",
+    "cook": "",
+    "ready_in": ""
+  },
+  "images": ["../images/recipes/chocolate-mousse.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "3 eggs, separated",
+    "3/4 cup sugar",
+    "2 28g squares of Lindt 90% dark chocolate",
+    "1/4 cup of water",
+    "1/2 envelope unflavoured gelatin",
+    "1/4 cup vanilla",
+    "1 cup whipping cream",
+    "1/4 cup sugar",
+    "shaved chocolate for garnish"
+  ],
+  "directions": [
+    "Heat beaten egg yolks and 3/4 cup sugar in top of double boiler until sugar is dissolved.",
+    "Stir in chocolate until melted; continue cooking until mixture begins to thicken.",
+    "Soften gelatin in water; add to chocolate mixture, stir until dissolved.",
+    "Remove from heat; add vanilla; place in iced water to cool.",
+    "Beat cream with 2 tbsp sugar until stiff.",
+    "Whip egg white with 1 tbsp sugar until stiff, but not dry.",
+    "When chocolate mixture begins to thicken, fold in cream and egg white, until well blended.",
+    "Pour into individual serving glasses, garnish with shaved chocolate"
+  ]
 }

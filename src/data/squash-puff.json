@@ -1,37 +1,37 @@
 {
-    "title": "Squash Puff",
-    "categories": [],
-    "meta": {
-        "prep": "35 m",
-        "cook": "25 m",
-        "ready_in": "1 h"
-    },
-    "images": ["../images/recipes/squash-puff.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "3 cups mashed Butternut Squash",
-        "1/2 - 1 cup onion",
-        "2 tbsp. of butter",
-        "2 large eggs (separated)",
-        "1/4 cup milk",
-        "3 tbsp. flour",
-        "3 tsp. baking powder",
-        "3/4 tsp. salt",
-        "1/8 tsp. pepper",
-        "1/2 cup + bread crumbs"
-    ],
-    "directions": [
-        "Preheat oven to 375 Fahrenheit",
-        "Boil/Steam/Whatever squash until soft, and mash it.",
-        "Sautee onion in butter until limp.",
-        "Add to mashed squash.",
-        "Beat in egg yolks and milk to squash mixture.",
-        "In separate container mix flour, baking powder, salt, and pepper.",
-        "Combine flour mixture to squash mixture.",
-        "Beat egg whites until stiff peaks",
-        "Fold in egg whites to squash mixture with a spatula.",
-        "Butter oven safe dish and pour mixture into dish.",
-        "Top with buttered crumbs",
-        "Put in oven and bake for 25 minutes or until top is golden brown."
-    ]
+  "title": "Squash Puff",
+  "categories": [],
+  "meta": {
+    "prep": "35 m",
+    "cook": "25 m",
+    "ready_in": "1 h"
+  },
+  "images": ["../images/recipes/squash-puff.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "3 cups mashed Butternut Squash",
+    "1/2 - 1 cup onion",
+    "2 tbsp. of butter",
+    "2 large eggs (separated)",
+    "1/4 cup milk",
+    "3 tbsp. flour",
+    "3 tsp. baking powder",
+    "3/4 tsp. salt",
+    "1/8 tsp. pepper",
+    "1/2 cup + bread crumbs"
+  ],
+  "directions": [
+    "Preheat oven to 375 Fahrenheit",
+    "Boil/Steam/Whatever squash until soft, and mash it.",
+    "Sautee onion in butter until limp.",
+    "Add to mashed squash.",
+    "Beat in egg yolks and milk to squash mixture.",
+    "In separate container mix flour, baking powder, salt, and pepper.",
+    "Combine flour mixture to squash mixture.",
+    "Beat egg whites until stiff peaks",
+    "Fold in egg whites to squash mixture with a spatula.",
+    "Butter oven safe dish and pour mixture into dish.",
+    "Top with buttered crumbs",
+    "Put in oven and bake for 25 minutes or until top is golden brown."
+  ]
 }

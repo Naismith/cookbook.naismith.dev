@@ -1,30 +1,30 @@
 {
-    "title": "Cheesy Stuffed Meatballs",
-    "categories": ["hellofresh"],
-    "meta": {},
-    "images": ["../images/recipes/cheesy-stuffed-meatballs.jpg"],
-    "stars": 4.5,
-    "ingredients": [
-        "250 g Ground Beef",
-        "170 g Cavatappi",
-        "1/4 cup Mozzarella Cheese, shredded",
-        "1/4 cup Parmesan Cheese, shredded",
-        "1/4 cup Basil Pesto",
-        "6 g Garlic",
-        "1 unit Beef Broth Concentrate",
-        "50 g Shallot",
-        "2 tbsp Italian Breadcrumbs",
-        "56 g Baby Spinach",
-        "370 mL Crushed Tomatoes",
-        "1/2 tbsp Oil",
-        "2.5 tsp Salt and Pepper"
-    ],
-    "directions": [
-        "Before starting, preheat the oven to 425°F. Wash and dry all produce. Add 10 cups water and 2 tsp salt to a large pot. (NOTE: Use same amounts for 4 ppl.) Cover and bring to a boil over high heat. Meanwhile, peel, then roughly chop shallot. Peel, then mince or grate garlic.",
-        "Combine beef, breadcrumbs, half the pesto and 1/4 tsp salt (dbl for 4 ppl) in a large bowl. Season with pepper. Form beef mixture into 8 equal sized patties (16 for 4 ppl). Add 1 tsp mozzarella in the middle of each patty, then shape and press patty firmly around the cheese, fully enclosing it to create a ball. Repeat until all meatballs are formed.",
-        "Add cavatappi to the pot of boiling water. Cook, stirring occasionally, until tender, 9-10 min. Reserve 1/4 cup pasta water (dbl for 4 ppl). Drain cavatappi and return to the same pot, off heat. Add spinach and remaining pesto to cooked cavatappi. Stir until spinach is wilted. Cover and set aside.",
-        "While cavatappi cooks, add meatballs to a parchment-lined baking sheet. Bake in the middle of the oven, until cooked through, 14-15 min.**",
-        "While meatballs cook, heat a large non-stick pan over medium-high heat. When hot, add 1/2 tbsp oil (dbl for 4 ppl), then shallot and garlic. Cook, stirring often, until softened, 2-3 min. Add crushed tomatoes, reserved pasta water and broth concentrate. Season with salt and pepper. Cook, stirring often, until slightly thickened, 2-3 min.",
-        "Divide the cavatappi between bowls. Top with meatballs and tomato sauce. Sprinkle with Parmesan."
-    ]
+  "title": "Cheesy Stuffed Meatballs",
+  "categories": ["hellofresh"],
+  "meta": {},
+  "images": ["../images/recipes/cheesy-stuffed-meatballs.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "250 g Ground Beef",
+    "170 g Cavatappi",
+    "1/4 cup Mozzarella Cheese, shredded",
+    "1/4 cup Parmesan Cheese, shredded",
+    "1/4 cup Basil Pesto",
+    "6 g Garlic",
+    "1 unit Beef Broth Concentrate",
+    "50 g Shallot",
+    "2 tbsp Italian Breadcrumbs",
+    "56 g Baby Spinach",
+    "370 mL Crushed Tomatoes",
+    "1/2 tbsp Oil",
+    "2.5 tsp Salt and Pepper"
+  ],
+  "directions": [
+    "Before starting, preheat the oven to 425°F. Wash and dry all produce. Add 10 cups water and 2 tsp salt to a large pot. (NOTE: Use same amounts for 4 ppl.) Cover and bring to a boil over high heat. Meanwhile, peel, then roughly chop shallot. Peel, then mince or grate garlic.",
+    "Combine beef, breadcrumbs, half the pesto and 1/4 tsp salt (dbl for 4 ppl) in a large bowl. Season with pepper. Form beef mixture into 8 equal sized patties (16 for 4 ppl). Add 1 tsp mozzarella in the middle of each patty, then shape and press patty firmly around the cheese, fully enclosing it to create a ball. Repeat until all meatballs are formed.",
+    "Add cavatappi to the pot of boiling water. Cook, stirring occasionally, until tender, 9-10 min. Reserve 1/4 cup pasta water (dbl for 4 ppl). Drain cavatappi and return to the same pot, off heat. Add spinach and remaining pesto to cooked cavatappi. Stir until spinach is wilted. Cover and set aside.",
+    "While cavatappi cooks, add meatballs to a parchment-lined baking sheet. Bake in the middle of the oven, until cooked through, 14-15 min.**",
+    "While meatballs cook, heat a large non-stick pan over medium-high heat. When hot, add 1/2 tbsp oil (dbl for 4 ppl), then shallot and garlic. Cook, stirring often, until softened, 2-3 min. Add crushed tomatoes, reserved pasta water and broth concentrate. Season with salt and pepper. Cook, stirring often, until slightly thickened, 2-3 min.",
+    "Divide the cavatappi between bowls. Top with meatballs and tomato sauce. Sprinkle with Parmesan."
+  ]
 }
