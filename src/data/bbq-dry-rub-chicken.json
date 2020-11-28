@@ -1,8 +1,13 @@
 {
   "title": "BBQ Dry-Rub Chicken",
-  "categories": ["hellofresh"],
+  "categories": [
+    "hellofresh",
+    "chicken"
+  ],
   "meta": {},
-  "images": ["../images/recipes/bbq-dry-rub-chicken.jpg"],
+  "images": [
+    "../images/recipes/bbq-dry-rub-chicken.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "2 unit Chicken Breasts",

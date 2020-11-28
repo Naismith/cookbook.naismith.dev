@@ -1,8 +1,12 @@
 {
   "title": "Seared Italian Sausage",
-  "categories": ["hellofresh"],
+  "categories": [
+    "hellofresh"
+  ],
   "meta": {},
-  "images": ["../images/recipes/seared-italian-sausage.jpg"],
+  "images": [
+    "../images/recipes/seared-italian-sausage.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "250 g mild italian pork sausage",
@@ -12,7 +16,7 @@
     "50 g shallot",
     "28 g crispy shallot",
     "7 g oregano",
-    "1 chicken broth oncentrate",
+    "1 chicken broth concentrate",
     "1/4 cup parmesan cheese",
     "3 g garlic",
     "2 tbsp unsalted butter"

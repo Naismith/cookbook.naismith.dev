@@ -1,8 +1,13 @@
 {
   "title": "Sesame Soy Maple Chicken",
-  "categories": [],
+  "categories": [
+    "chicken",
+    "hellofresh"
+  ],
   "meta": {},
-  "images": ["../images/recipes/sesame-soy-maple-chicken.jpg"],
+  "images": [
+    "../images/recipes/sesame-soy-maple-chicken.jpg"
+  ],
   "stars": 4,
   "ingredients": [
     "2 unit Chicken Breasts",

@@ -1,8 +1,13 @@
 {
   "title": "Cheesy Stuffed Meatballs",
-  "categories": ["hellofresh"],
+  "categories": [
+    "hellofresh",
+    "beef"
+  ],
   "meta": {},
-  "images": ["../images/recipes/cheesy-stuffed-meatballs.jpg"],
+  "images": [
+    "../images/recipes/cheesy-stuffed-meatballs.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "250 g Ground Beef",

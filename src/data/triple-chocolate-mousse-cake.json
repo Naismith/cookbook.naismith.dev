@@ -1,12 +1,16 @@
 {
   "title": "Triple Chocolate Mousse Cake",
-  "categories": [],
+  "categories": [
+    "sweet"
+  ],
   "meta": {
     "prep": "1 h 30 m",
     "cook": "20 m",
     "ready_in": "3 h"
   },
-  "images": ["../images/recipes/triple-chocolate-mousse-cake.jpg"],
+  "images": [
+    "../images/recipes/triple-chocolate-mousse-cake.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "Chocolate Cake",
@@ -22,14 +26,12 @@
     "1/4 tsp salt",
     "1/4 cup (60ml) milk, room temperature",
     "2 tbsp water, room temperature",
-
     "Chocolate Fudge",
     "",
     "6 oz (170g) semi sweet chocolate chips",
     "2 tbsp (30ml) light corn syrup",
     "1/2 tsp vanilla extract",
     "1/2 cup (120ml) heavy whipping cream",
-
     "Chocolate Mousse",
     "",
     "4 large egg yolks",
@@ -37,7 +39,6 @@
     "1 3/4 cups (420ml) heavy whipping cream, divided",
     "8 oz (227g) semi sweet chocolate chips",
     "3/4 cup (86g) powdered sugar",
-
     "White Chocolate Mousse",
     "",
     "1 1/4 tsp unflavored powdered gelatin",
@@ -61,7 +62,6 @@
     "To make the fudge layer, add the chocolate chips, corn syrup and vanilla extract to a medium heat-proof bowl.",
     "Heat the heavy whipping cream until it just starts to boil, then pour it over the chocolate chips. Cover the bowl with clear wrap and allow to sit for 3-5 minutes, then whisk until smooth.",
     "Pour the chocolate on top of the cake and spread into an even layer. Place the cake in the fridge while the ganache firms, about 1 hour.",
-
     "TO MAKE THE CHOCOLATE MOUSSE:",
     "Combine egg yolks, sugar and 1/2 cup (120ml) of heavy whipping cream in the top of a double boiler. If you don’t have a double boiler, you can use a mixing bowl set over a pot with simmering water in it. I use my mixer bowl. Do not let the water boil, or it will be too hot. To ensure that the steam cooking the eggs doesn’t get too hot, occasionally lift the bowl to release the steam.",
     "Cook mixture, whisking constantly. The mixture will thin out at first, then begin to thicken. The egg mixture will be ready when is has thickened, lightened in color and has more volume. It should take about 7-10 minutes and reach 160°F (71°C). Do not boil. When done, remove egg mixture from heat and set aside.",
@@ -70,7 +70,6 @@
     "In another bowl, whip remaining 1 1/4 cups (300ml) of heavy whipping cream and powdered sugar until stiff peaks form.",
     "Fold about a ¼ cup of the whipped cream into the chocolate mixture until , then fold about a 1/4 of the chocolate mixture into the whipped cream. Slowly fold the remaining chocolate mixture into the whipped cream.",
     "Spread the chocolate mousse into an even layer on top of the chocolate fudge. Refrigerate for about an hour.",
-
     "TO MAKE THE WHITE CHOCOLATE MOUSSE:",
     "In a small bowl, sprinkle the powdered gelatin over the water, making sure the powder is all touching water. Let stand for about 5 minutes.",
     "Place the white chocolate chips in a medium glass bowl. Microwave 1/2 cup (120ml) of heavy cream in a medium measuring cup until it comes to a boil.",
@@ -79,7 +78,6 @@
     "Whip remaining 1 1/4 cups (300ml) heavy cream and powdered sugar at high speed with a mixer until stiff peaks form.",
     "Gently fold about a third of the cooled white chocolate mixture into the whipped cream until combined. Add the second third of the cooled white chocolate and gently fold into the whipped cream. Add the remaining white chocolate and fold together until completely combined.",
     "Spread the white chocolate mousse into an even layer on top of the chocolate mousse. Refrigerate until completely firm, at least 3-4 hours.",
-
     "TO FINISH OFF THE CAKE:",
     "Once firm, remove the cake from the pan or remove the cake collar from the sides. If needed, smooth the sides of the cake using an offset spatula, and place cake on a serving plate.",
     "Finish off the cake with chocolate curls and a sprinkle of cocoa powder. Keep cake refrigerated until ready to serve."
