@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const List = styled.ul`
   padding: 0;
@@ -16,6 +16,14 @@ const List = styled.ul`
 const Item = styled.li`
   width: 50%;
   margin: 0;
+
+  ${(props) =>
+    props.strong &&
+    css`
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+    `}
 
   @media print {
     font-size: 0.8rem;

@@ -6,6 +6,16 @@ import Ingredient from '../components/recipe/Ingredient';
 import Direction from '../components/recipe/Direction';
 import Mast from '../components/recipe/Mast';
 
+const parseIngredient = (ingredient) => {
+  const expression = RegExp(/{{([^}]*)}}/g);
+
+  const keys = [...ingredient.matchAll(expression)]
+    .map(([_, key]) => key)
+    .reduce((acc, match) => ({ ...acc, [match]: true }), {});
+
+  return { ingredient: ingredient.replace(expression, ''), attributes: keys };
+};
+
 const RecipePost = ({ data }) => {
   const { recipe } = data;
 
@@ -19,9 +29,14 @@ const RecipePost = ({ data }) => {
         />
         <SubHeading>Ingredients</SubHeading>
         <Ingredient.List>
-          {recipe.ingredients.map((ingredient, i) => (
-            <Ingredient.Item key={i}>{ingredient}</Ingredient.Item>
-          ))}
+          {recipe.ingredients.map((source, i) => {
+            const { ingredient, attributes } = parseIngredient(source);
+            return (
+              <Ingredient.Item strong={attributes.strong} key={i}>
+                {ingredient}
+              </Ingredient.Item>
+            );
+          })}
         </Ingredient.List>
 
         <SubHeading>Directions</SubHeading>
