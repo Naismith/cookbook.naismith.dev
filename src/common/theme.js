@@ -1,9 +1,18 @@
 import { createMuiTheme } from '@material-ui/core';
+import { createGlobalStyle } from 'styled-components';
 
-const darkTheme = createMuiTheme({
+export const theme = createMuiTheme({
   palette: {
     type: 'dark',
   },
 });
 
-export default darkTheme;
+export const GlobalStyle = createGlobalStyle`
+	@media print {
+		@page {
+			size: auto;
+			margin: 1cm;
+			padding: 1rem;
+		}
+	}
+`;
