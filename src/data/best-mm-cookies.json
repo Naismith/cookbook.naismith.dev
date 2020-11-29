@@ -1,0 +1,35 @@
+{
+  "title": "Best M&M Cookies",
+  "categories": [
+    "sweet"
+  ],
+  "meta": {
+    "prep": "20 m",
+    "cook": "1 h 10 m",
+    "ready_in": "1 h 25 m"
+  },
+  "images": [
+    "../images/recipes/best-mm-cookies.jpg"
+  ],
+  "stars": 4.5,
+  "ingredients": [
+    "1 cup unsalted butter",
+    "1 cup light brown sugar",
+    "3/4 cup granulated sugar",
+    "2 large eggs",
+    "2 teaspoons vanilla",
+    "3 cups all-purpose flour",
+    "1 teaspoon baking soda",
+    "1 teaspoon salt",
+    "1 cup chocolate chips",
+    "1 cup M&M’s , plus more for tops if desired"
+  ],
+  "directions": [
+    "Preheat the oven to 375°F. Line two baking sheets with silicone baking mats or parchment paper.",
+    "In a large bowl, using a mixer, cream together the butter and sugars for 1 minute. Add the eggs and vanilla and mix until combined.",
+    "Add the flour, baking soda and salt and stir mix just until combined. Fold in the chocolate chips and M&M’s. Refrigerate dough for 15 to 30 minutes if time allows.",
+    "Using a large cookie scoop (about 3 Tablespoons), scoop the cookie dough onto the baking sheet about 2 inches apart. Place extra M&M’s on the top of the cookies if desired.",
+    "Bake for 7-10 minutes, or until the edges are barely golden brown. Allow cookies to set on pan for 2 minutes, and then remove to a cooling rack.",
+    "Store in an airtight container for up to 3 days."
+  ]
+}
