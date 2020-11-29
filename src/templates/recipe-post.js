@@ -5,6 +5,9 @@ import SubHeading from '../components/recipe/SubHeading';
 import Ingredient from '../components/recipe/Ingredient';
 import Direction from '../components/recipe/Direction';
 import Mast from '../components/recipe/Mast';
+import matchAll from 'string.prototype.matchall';
+
+matchAll.shim();
 
 const parseIngredient = (ingredient) => {
   const expression = RegExp(/{{([^}]*)}}/g);
