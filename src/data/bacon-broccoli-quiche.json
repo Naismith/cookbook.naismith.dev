@@ -3,10 +3,12 @@
   "categories": [],
   "meta": {
     "prep": "",
-    "cook": "",
+    "cook": "30 m",
     "ready_in": ""
   },
-  "images": ["../images/recipes/bacon-broccoli-quiche.jpg"],
+  "images": [
+    "../images/recipes/bacon-broccoli-quiche.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "1 deep dish pie crust unbaked",
