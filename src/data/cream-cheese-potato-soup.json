@@ -1,12 +1,16 @@
 {
   "title": "Cream Cheese Potato Soup",
-  "categories": [],
+  "categories": [
+    "soup"
+  ],
   "meta": {
     "prep": "",
     "cook": "",
     "ready_in": "1 h"
   },
-  "images": ["../images/recipes/cream-cheese-potato-soup.jpg"],
+  "images": [
+    "../images/recipes/cream-cheese-potato-soup.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "4 cups chicken broth",

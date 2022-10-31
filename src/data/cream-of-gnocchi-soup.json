@@ -1,6 +1,8 @@
 {
   "title": "Cream of Gnocchi Soup",
-  "categories": [],
+  "categories": [
+    "soup"
+  ],
   "meta": {
     "prep": "10 m",
     "cook": "45 m",
