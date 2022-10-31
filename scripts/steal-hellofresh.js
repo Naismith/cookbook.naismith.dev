@@ -3,7 +3,13 @@ const axios = require('axios');
 const fs = require('fs');
 const util = require('util');
 
-const recipesToSteal = ['61004adc7233433ef45b034c'];
+const recipesToSteal = [
+  '631f483c5094b0ce6303a38f',
+  '6317563e7402fd5b16074ef2',
+  '6304934e5e85b9af920c1e75',
+  '62fb5626a45357d0ea007a67',
+  'www.hellofresh.ca/recipes/creamy-pork-gnocchi-62f0cb3156cd10ee4b0c2eb3',
+];
 const Authorization = process.env.Authorization;
 
 const getUrl = (id) =>
@@ -19,53 +25,57 @@ const normalizeAmount = (amount) => {
 };
 
 const getData = async () => {
-  try {
-    const { data } = await axios.get(getUrl(recipesToSteal[0]), {
-      headers: { Authorization },
-    });
+  for await (const recipeToSteal of recipesToSteal) {
+    try {
+      let arr = recipeToSteal.split('-');
+      let id = arr[arr.length - 1];
+      const { data } = await axios.get(getUrl(id), {
+        headers: { Authorization },
+      });
 
-    const filename = `hf-${data.slug}`;
+      const filename = `hf-${data.slug}`;
 
-    const yields = data.yields[0].ingredients.reduce((acc, ingredient) => {
-      acc[ingredient.id] = `${normalizeAmount(ingredient.amount)} ${
-        ingredient.unit
-      }`;
-      return acc;
-    }, {});
+      const yields = data.yields[0].ingredients.reduce((acc, ingredient) => {
+        acc[ingredient.id] = `${normalizeAmount(ingredient.amount)} ${
+          ingredient.unit
+        }`;
+        return acc;
+      }, {});
 
-    const recipe = {
-      title: data.name,
-      categories: ['hellofresh'],
-      meta: {},
-      images: [`../images/recipes/${filename}.jpg`],
-      stars: null,
-      source: data.link,
-      ingredients: data.ingredients.map(
-        (ingredient) => `${yields[ingredient.id]} - ${ingredient.name}`,
-      ),
-      directions: data.steps.reduce((acc, step) => {
-        return [...acc, ...step.instructions.split('\n')];
-      }, []),
-    };
+      const recipe = {
+        title: data.name,
+        categories: ['hellofresh'],
+        meta: {},
+        images: [`../images/recipes/${filename}.jpg`],
+        stars: null,
+        source: data.link,
+        ingredients: data.ingredients.map(
+          (ingredient) => `${yields[ingredient.id]} - ${ingredient.name}`,
+        ),
+        directions: data.steps.reduce((acc, step) => {
+          return [...acc, ...step.instructions.split('\n')];
+        }, []),
+      };
 
-    const image = await axios({
-      method: 'get',
-      responseType: 'stream',
-      url: getImagePath(data.imagePath),
-    });
+      const image = await axios({
+        method: 'get',
+        responseType: 'stream',
+        url: getImagePath(data.imagePath),
+      });
 
-    image.data.pipe(fs.createWriteStream(`./${filename}.jpg`));
-    fs.writeFile(
-      `./${filename}.json`,
-      JSON.stringify(recipe, null, 2),
-      (err) => {
-        console.log(err);
-      },
-    );
+      image.data.pipe(fs.createWriteStream(`./${filename}.jpg`));
+      fs.writeFile(
+        `./${filename}.json`,
+        JSON.stringify(recipe, null, 2),
+        (err) => {
+          console.log(err);
+        },
+      );
 
-    console.log(getImagePath(data.imagePath));
-  } catch (err) {
-    console.log(err);
+      console.log(getImagePath(data.imagePath));
+    } catch (err) {
+      console.log(err);
+    }
   }
 };
 
