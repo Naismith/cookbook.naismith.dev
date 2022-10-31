@@ -1,17 +1,17 @@
 require('dotenv').config();
-import axios from 'axios';
+const axios = require('axios');
 const fs = require('fs');
 const util = require('util');
 
-const recipesToSteal = ['5eeb5dff92ac8d349800ca6e'];
+const recipesToSteal = ['61004adc7233433ef45b034c'];
 const Authorization = process.env.Authorization;
 
-const getUrl = (id: string) =>
+const getUrl = (id) =>
   `https://www.hellofresh.ca/gw/api/recipes/${id}?country=ca&locale=en-CA`;
-const getImagePath = (imagePath: string) =>
+const getImagePath = (imagePath) =>
   `https://img.hellofresh.com/hellofresh_s3${imagePath}`;
 
-const normalizeAmount = (amount: number) => {
+const normalizeAmount = (amount) => {
   if (amount === 0.25) return '1/4';
   if (amount === 0.5) return '1/2';
   if (amount === 0.75) return '3/4';
