@@ -4,11 +4,9 @@ const fs = require('fs');
 const util = require('util');
 
 const recipesToSteal = [
-  '631f483c5094b0ce6303a38f',
-  '6317563e7402fd5b16074ef2',
-  '6304934e5e85b9af920c1e75',
-  '62fb5626a45357d0ea007a67',
-  'www.hellofresh.ca/recipes/creamy-pork-gnocchi-62f0cb3156cd10ee4b0c2eb3',
+  'www.hellofresh.ca/recipes/homestyle-chive-and-cheddar-biscuits-6269abc2cbcb19e01d0aff8b',
+  'www.hellofresh.ca/recipes/cheesy-tex-mex-casserole-61640606ebdcce0d023479e2',
+  'www.hellofresh.ca/recipes/bacon-and-butternut-squash-risotto-61486542d368c521f60de608',
 ];
 const Authorization = process.env.Authorization;
 
