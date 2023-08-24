@@ -1,0 +1,33 @@
+{
+    "title": "Baked Oatmeal",
+    "categories": [
+        "breakfast"
+    ],
+    "meta": {
+       
+    },
+    "images": [
+        "../images/recipes/baked-oatmeal.jpeg"
+    ],
+    "stars": 4.5,
+    "ingredients": [
+        "3 cups quick oats",
+        "1/2 cup brown sugar",
+        "2 tsp baking powder",
+        "1/2 tsp cinnamon",
+        "1/2 cup butter, melted",
+        "1 cup milk",
+        "2 eggs, slightly beaten",
+        "1 honeycrisp apple",
+        "1/2 cup peaches",
+        "1/2 cup blueberries"
+    ],
+    "directions": [
+        "Preheat oven to 350 fahrenheit",
+        "Mix oats, sugar, baking powder and cinnamon in a bowl",
+        "After mixing, add butter, milk, eggs and stir together to combine.",
+        "Add fruit, stir to combine and pour into a lightly oiled 8 inch square baking dish",
+        "Bake uncovered for roughly 40 minutes, or desired doneness"
+    ],
+    "source": ""
+}
