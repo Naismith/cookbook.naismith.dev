@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import Container from '@material-ui/core/Container';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
 import Layout from '../components/layout';
 import SubHeading from '../components/recipe/SubHeading';
 import Ingredient from '../components/recipe/Ingredient';
 import Direction from '../components/recipe/Direction';
 import Mast from '../components/recipe/Mast';
 import matchAll from 'string.prototype.matchall';
+import { Box } from '@material-ui/core';
 
 matchAll.shim();
 
@@ -20,7 +23,24 @@ const parseIngredient = (ingredient) => {
 };
 
 const RecipePost = ({ data }) => {
+  const wakeLockRef = useRef(null);
+  const [useLock, setUseLock] = useState(false);
   const { recipe } = data;
+
+  const updateUseLock = async (val) => {
+    const wakeLock = wakeLockRef.current;
+
+    if (wakeLock) {
+      await wakeLock.release();
+      wakeLockRef.current = null;
+      setUseLock(false);
+    }
+
+    if (val) {
+      wakeLockRef.current = await navigator.wakeLock.request("screen");
+      setUseLock(true);
+    }
+  };
 
   return (
     <Layout>
@@ -30,6 +50,13 @@ const RecipePost = ({ data }) => {
           meta={recipe.meta}
           title={recipe.title}
         />
+        <Box textAlign={"center"} mb={2}>
+        <FormControlLabel
+          control={<Checkbox color="primary" checked={useLock} onChange={e => updateUseLock(e.target.checked)} />}
+          label="Prevent screen lock"
+        />
+
+        </Box>
         <SubHeading>Ingredients</SubHeading>
         <Ingredient.List>
           {recipe.ingredients.map((source, i) => {
