@@ -2,11 +2,13 @@ import React, { useMemo, useState } from 'react';
 import { graphql } from 'gatsby';
 
 import Grid from '@material-ui/core/Grid';
+import TextField from '@material-ui/core/TextField';
 import Container from '@material-ui/core/Container';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import RecipePreview from '../components/RecipePreview';
 import { CategorySelect } from '../components/CategorySelect';
+import { Box } from '@material-ui/core';
 
 const byName = (a, b) => {
   const aLower = a.toLowerCase();
@@ -18,6 +20,7 @@ const byName = (a, b) => {
 
 const usePageLogic = (data) => {
   const [activeCategories, setActiveCategories] = useState([]);
+  const [search, setSearch] = useState("");
 
   const categories = useMemo(() => {
     const categoryList = data.recipes.nodes.reduce((acc, node) => {
@@ -41,10 +44,17 @@ const usePageLogic = (data) => {
       });
     }
 
+    if (search) {
+      const lowerSearch = search.toLowerCase();
+      recipes = recipes.filter((recipe) => {
+        return recipe.title.toLowerCase().includes(lowerSearch);
+      })
+    }
+
     recipes = recipes.sort((a, b) => byName(a.title, b.title));
 
     return recipes;
-  }, [data, activeCategories]);
+  }, [data, activeCategories, search]);
 
   const handleCategoryClick = (name) => {
     if (activeCategories.includes(name))
@@ -53,6 +63,7 @@ const usePageLogic = (data) => {
   };
 
   return {
+    search, setSearch,
     activeCategories,
     handleCategoryClick,
     recipes,
@@ -66,12 +77,18 @@ const IndexPage = ({ data }) => {
     activeCategories,
     handleCategoryClick,
     recipes,
+    search,
+    setSearch,
   } = usePageLogic(data);
 
   return (
     <Layout siteTitle="Naismith Cookbook">
       <SEO title="Home" />
       <Container>
+        <Box mb={2}>
+
+        <TextField variant="outlined" label="Search" fullWidth onChange={(e) => setSearch(e.target.value)} value={search} />
+        </Box>
         <CategorySelect
           categories={categories}
           activeCategories={activeCategories}
