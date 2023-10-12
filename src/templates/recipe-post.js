@@ -9,6 +9,7 @@ import Direction from '../components/recipe/Direction';
 import Mast from '../components/recipe/Mast';
 import matchAll from 'string.prototype.matchall';
 import { Box } from '@material-ui/core';
+import { graphql } from 'gatsby'
 
 matchAll.shim();
 
@@ -51,10 +52,10 @@ const RecipePost = ({ data }) => {
           title={recipe.title}
         />
         <Box textAlign={"center"} mb={2}>
-        <FormControlLabel
-          control={<Checkbox color="primary" checked={useLock} onChange={e => updateUseLock(e.target.checked)} />}
-          label="Prevent screen lock"
-        />
+          <FormControlLabel
+            control={<Checkbox color="primary" checked={useLock} onChange={e => updateUseLock(e.target.checked)} />}
+            label="Prevent screen lock"
+          />
 
         </Box>
         <SubHeading>Ingredients</SubHeading>
