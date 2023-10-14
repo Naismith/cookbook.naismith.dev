@@ -1,10 +1,9 @@
-import { createMuiTheme } from '@material-ui/core';
-import { createGlobalStyle } from 'styled-components';
+import { createTheme, createGlobalStyle } from '@material-ui/core';
 
-export const theme = createMuiTheme({
-  palette: {
-    type: 'dark',
-  },
+export const theme = createTheme({
+	palette: {
+		type: 'dark',
+	},
 });
 
 export const GlobalStyle = createGlobalStyle`

@@ -1,9 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import { styled } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
 import MetaInfo from '../MetaInfo';
 import Image from 'gatsby-image';
-import Box from '../Box';
+import { Box } from '@material-ui/core'
 
 const Container = styled.div`
   display: flex;

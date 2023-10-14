@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import { styled } from '@material-ui/core';
 
 const List = styled.ol`
   padding: 0;
