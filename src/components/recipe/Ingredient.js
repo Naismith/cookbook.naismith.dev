@@ -1,4 +1,5 @@
-import styled, { css } from 'styled-components';
+import { css } from '@emotion/react'
+import styled from '@emotion/styled'
 
 const List = styled.ul`
   padding: 0;

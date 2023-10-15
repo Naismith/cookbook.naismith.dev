@@ -1,4 +1,4 @@
-import { styled } from '@material-ui/core';
+import styled from '@emotion/styled';
 import { Typography } from '@material-ui/core';
 
 const SubHeading = styled(Typography)`

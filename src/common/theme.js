@@ -1,4 +1,6 @@
-import { createTheme, createGlobalStyle } from '@material-ui/core';
+import React from 'react'
+import { createTheme } from '@material-ui/core';
+import { css, Global as EmotionGlobalStyle } from '@emotion/react';
 
 export const theme = createTheme({
 	palette: {
@@ -6,7 +8,7 @@ export const theme = createTheme({
 	},
 });
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = () => (<EmotionGlobalStyle styles={css`
 	@media print {
 		@page {
 			size: auto;
@@ -14,4 +16,4 @@ export const GlobalStyle = createGlobalStyle`
 			padding: 1rem;
 		}
 	}
-`;
+`} />)

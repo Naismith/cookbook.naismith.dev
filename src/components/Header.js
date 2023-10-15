@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { styled } from '@material-ui/core';
+import styled from '@emotion/styled'
 import Container from '@material-ui/core/Container';
 import React from 'react';
 

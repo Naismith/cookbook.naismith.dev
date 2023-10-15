@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '@material-ui/core';
+import styled from '@emotion/styled';
 
 const Wrapper = styled.ul`
   display: inline-flex;

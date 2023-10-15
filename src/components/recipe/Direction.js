@@ -1,4 +1,4 @@
-import { styled } from '@material-ui/core';
+import styled from '@emotion/styled';
 
 const List = styled.ol`
   padding: 0;
