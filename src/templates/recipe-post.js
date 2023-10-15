@@ -1,14 +1,14 @@
 import React, { useRef, useState } from 'react';
-import Container from '@material-ui/core/Container';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
+import Container from '@mui/material/Container';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 import Layout from '../components/layout';
 import SubHeading from '../components/recipe/SubHeading';
 import Ingredient from '../components/recipe/Ingredient';
 import Direction from '../components/recipe/Direction';
 import Mast from '../components/recipe/Mast';
 import matchAll from 'string.prototype.matchall';
-import { Box } from '@material-ui/core';
+import { Box } from '@mui/material';
 import { graphql } from 'gatsby'
 
 matchAll.shim();

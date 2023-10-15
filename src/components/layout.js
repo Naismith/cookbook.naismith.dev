@@ -1,5 +1,4 @@
 import React from 'react';
-import { CssBaseline } from '@material-ui/core';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Providers } from './Providers';
 import { GlobalStyle } from '../common/theme';
@@ -18,7 +17,6 @@ const Layout = ({ children }) => {
 
   return (
     <Providers>
-      <CssBaseline />
       <GlobalStyle />
       <Header siteTitle={data.site.siteMetadata.title} />
 

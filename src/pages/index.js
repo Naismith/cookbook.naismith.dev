@@ -1,14 +1,14 @@
 import React, { useMemo, useState } from 'react';
 import { graphql } from 'gatsby';
 
-import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
-import Container from '@material-ui/core/Container';
+import Grid from '@mui/material/Grid';
+import TextField from '@mui/material/TextField';
+import Container from '@mui/material/Container';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import RecipePreview from '../components/RecipePreview';
 import { CategorySelect } from '../components/CategorySelect';
-import { Box } from '@material-ui/core';
+import { Box } from '@mui/material';
 
 const byName = (a, b) => {
   const aLower = a.toLowerCase();
@@ -87,7 +87,7 @@ const IndexPage = ({ data }) => {
       <Container>
         <Box mb={2}>
 
-        <TextField variant="outlined" label="Search" fullWidth onChange={(e) => setSearch(e.target.value)} value={search} />
+          <TextField variant="outlined" label="Search" fullWidth onChange={(e) => setSearch(e.target.value)} value={search} />
         </Box>
         <CategorySelect
           categories={categories}
@@ -119,7 +119,7 @@ export const query = graphql`
         categories
         images {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid
             }
           }

@@ -1,10 +1,10 @@
 import React from 'react'
-import { createTheme } from '@material-ui/core';
+import { createTheme } from '@mui/material';
 import { css, Global as EmotionGlobalStyle } from '@emotion/react';
 
 export const theme = createTheme({
 	palette: {
-		type: 'dark',
+		mode: 'dark',
 	},
 });
 

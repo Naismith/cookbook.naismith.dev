@@ -1,6 +1,6 @@
 import { Link } from 'gatsby';
 import styled from '@emotion/styled'
-import Container from '@material-ui/core/Container';
+import Container from '@mui/material/Container';
 import React from 'react';
 
 const Background = styled.header`
