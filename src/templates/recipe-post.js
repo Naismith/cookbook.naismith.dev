@@ -59,16 +59,21 @@ const RecipePost = ({ data }) => {
 
         </Box>
         <SubHeading>Ingredients</SubHeading>
-        <Ingredient.List>
-          {recipe.ingredients.map((source, i) => {
-            const { ingredient, attributes } = parseIngredient(source);
-            return (
-              <Ingredient.Item strong={attributes.strong} key={i}>
-                {ingredient}
-              </Ingredient.Item>
-            );
-          })}
-        </Ingredient.List>
+        {recipe.ingredientsV2 ? (
+          <div>Hello World</div>
+        ) : (
+          <Ingredient.List>
+            {recipe.ingredients.map((source, i) => {
+              const { ingredient, attributes } = parseIngredient(source);
+              return (
+                <Ingredient.Item strong={attributes.strong} key={i}>
+                  {ingredient}
+                </Ingredient.Item>
+              );
+            })}
+          </Ingredient.List>
+        )}
+
 
         <SubHeading>Directions</SubHeading>
         <Direction.List>
@@ -79,7 +84,7 @@ const RecipePost = ({ data }) => {
           ))}
         </Direction.List>
       </Container>
-    </Layout>
+    </Layout >
   );
 };
 
@@ -87,9 +92,15 @@ export default RecipePost;
 
 export const query = graphql`
   query($id: String!) {
-    recipe: dataJson(id: { eq: $id }) {
+    recipe(id: { eq: $id }) {
       id
       ingredients
+      ingredientsV2 {
+        name
+        unit
+        amount
+        range
+      }
       title
       stars
       images {

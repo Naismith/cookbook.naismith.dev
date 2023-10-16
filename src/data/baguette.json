@@ -1,12 +1,16 @@
 {
   "title": "Baguette",
-  "categories": [],
+  "categories": [
+    "bread"
+  ],
   "meta": {
     "prep": "",
     "cook": "",
     "ready_in": ""
   },
-  "images": ["../images/recipes/baguette.jpg"],
+  "images": [
+    "../images/recipes/baguette.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "1 package dry yeast (about 2 1/4 teaspoons)",

@@ -1,12 +1,16 @@
 {
   "title": "Banana Muffins",
-  "categories": ["sweet"],
+  "categories": [
+    "baking"
+  ],
   "meta": {
     "prep": "",
     "cook": "25 m",
     "ready_in": ""
   },
-  "images": ["../images/recipes/banana-muffins.jpg"],
+  "images": [
+    "../images/recipes/banana-muffins.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "1/2 cup margarine softened",

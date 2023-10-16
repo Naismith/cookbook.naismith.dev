@@ -1,8 +1,13 @@
 {
   "title": "Garlicky Mixed Mushroom Farro Bowl",
-  "categories": ["hellofresh"],
+  "categories": [
+    "hellofresh",
+    "dinner"
+  ],
   "meta": {},
-  "images": ["../images/recipes/mushroom-farro-bowl.jpg"],
+  "images": [
+    "../images/recipes/mushroom-farro-bowl.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "200 g Mixed Mushrooms",

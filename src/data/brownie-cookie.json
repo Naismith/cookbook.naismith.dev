@@ -1,12 +1,16 @@
 {
   "title": "Brownie Cookie",
-  "categories": ["sweet"],
+  "categories": [
+    "baking"
+  ],
   "meta": {
     "prep": "10 m",
     "cook": "10 m",
     "ready_in": "20 m"
   },
-  "images": ["../images/recipes/brownie-cookie.jpg"],
+  "images": [
+    "../images/recipes/brownie-cookie.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "1/2 cup butter",

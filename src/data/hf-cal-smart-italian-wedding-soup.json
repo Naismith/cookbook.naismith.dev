@@ -1,8 +1,14 @@
 {
   "title": "Italian Wedding Soup",
-  "categories": ["hellofresh", "soup"],
+  "categories": [
+    "hellofresh",
+    "soup",
+    "dinner"
+  ],
   "meta": {},
-  "images": ["../images/recipes/hf-cal-smart-italian-wedding-soup.jpg"],
+  "images": [
+    "../images/recipes/hf-cal-smart-italian-wedding-soup.jpg"
+  ],
   "stars": null,
   "source": "https://hellofresh.com/recipes/61004adc7233433ef45b034c",
   "ingredients": [

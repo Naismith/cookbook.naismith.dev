@@ -1,12 +1,16 @@
 {
   "title": "Gourmet Mushroom Risotto",
-  "categories": [],
+  "categories": [
+    "dinner"
+  ],
   "meta": {
     "prep": "",
     "cook": "",
     "ready_in": ""
   },
-  "images": ["../images/recipes/mushroom-risotto.jpg"],
+  "images": [
+    "../images/recipes/mushroom-risotto.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "6 cups chicken broth, divided",

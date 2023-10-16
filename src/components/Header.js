@@ -28,7 +28,7 @@ const StyledContainer = styled(Container)`
 
 const Header = ({ siteTitle = '' }) => (
   <Background>
-    <StyledContainer>
+    <StyledContainer maxWidth="xl">
       <SiteTitle>
         <StyledLink to="/">{siteTitle}</StyledLink>
       </SiteTitle>

@@ -23,7 +23,7 @@ const usePageLogic = (data) => {
   const [search, setSearch] = useState("");
 
   const categories = useMemo(() => {
-    const categoryList = data.recipes.nodes.reduce((acc, node) => {
+    const categoryList = data.allRecipe.nodes.reduce((acc, node) => {
       return [...acc, ...node.categories];
     }, []);
 
@@ -31,7 +31,7 @@ const usePageLogic = (data) => {
   }, [data]);
 
   const recipes = useMemo(() => {
-    let recipes = data.recipes.nodes;
+    let recipes = data.allRecipe.nodes;
 
     if (activeCategories.length) {
       recipes = recipes.filter((recipe) => {
@@ -84,7 +84,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout siteTitle="Naismith Cookbook">
       <SEO title="Home" />
-      <Container>
+      <Container maxWidth="xl">
         <Box mb={2}>
 
           <TextField variant="outlined" label="Search" fullWidth onChange={(e) => setSearch(e.target.value)} value={search} />
@@ -96,7 +96,7 @@ const IndexPage = ({ data }) => {
         />
         <Grid container alignItems="stretch" spacing={3}>
           {recipes.map((recipe) => (
-            <Grid item xs={12} sm={6} md={4} key={recipe.id}>
+            <Grid item xs={12} sm={6} md={3} key={recipe.id}>
               <RecipePreview recipe={recipe} />
             </Grid>
           ))}
@@ -110,7 +110,7 @@ export default IndexPage;
 
 export const query = graphql`
   query IndexPageQuery {
-    recipes: allDataJson {
+    allRecipe {
       nodes {
         fields {
           slug

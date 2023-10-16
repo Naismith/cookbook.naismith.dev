@@ -1,12 +1,16 @@
 {
   "title": "All Butter Pie Crust",
-  "categories": [],
+  "categories": [
+    "baking"
+  ],
   "meta": {
     "prep": "20 m",
     "cook": "1 h 10 m",
     "ready_in": "1 h 25 m"
   },
-  "images": ["../images/recipes/all-butter-pie-crust.jpg"],
+  "images": [
+    "../images/recipes/all-butter-pie-crust.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "2 1/2 cups all purpose flour",
@@ -14,6 +18,36 @@
     "1 tsp salt",
     "1 cup frozen butter",
     "6-8 tbsp ice water"
+  ],
+  "ingredientsV2": [
+    {
+      "name": "All purpose flour",
+      "amount": 2.5,
+      "unit": "cup"
+    },
+    {
+      "name": "White sugar",
+      "amount": 2,
+      "unit": "tablespoon"
+    },
+    {
+      "name": "Salt",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "name": "Frozen butter",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "name": "Ice water",
+      "range": [
+        6,
+        8
+      ],
+      "unit": "tablespoons"
+    }
   ],
   "directions": [
     "Whisk flour, sugar and salt together in a large bowl.",

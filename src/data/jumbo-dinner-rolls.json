@@ -1,12 +1,16 @@
 {
   "title": "Jumbo Dinner Rolls",
-  "categories": [],
+  "categories": [
+    "baking"
+  ],
   "meta": {
     "prep": "20 m",
     "cook": "15 m",
     "ready_in": "1 h 35 m"
   },
-  "images": ["../images/recipes/jumbo-dinner-rolls.jpg"],
+  "images": [
+    "../images/recipes/jumbo-dinner-rolls.jpg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "2 tablespoons instant yeast",

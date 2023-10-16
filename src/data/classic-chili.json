@@ -1,6 +1,8 @@
 {
   "title": "Classic Chili",
-  "categories": [],
+  "categories": [
+    "dinner"
+  ],
   "meta": {
     "prep": "5 m",
     "cook": "25 m",

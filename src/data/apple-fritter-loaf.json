@@ -1,12 +1,16 @@
 {
   "title": "Apple Fritter Loaf",
-  "categories": [],
+  "categories": [
+    "baking"
+  ],
   "meta": {
     "prep": "20 m",
     "cook": "1 h 10 m",
     "ready_in": "1 h 25 m"
   },
-  "images": ["../images/recipes/apple-fritter-loaf.jpeg"],
+  "images": [
+    "../images/recipes/apple-fritter-loaf.jpeg"
+  ],
   "stars": 4.5,
   "ingredients": [
     "Nonstick cooking spray, for the pan",

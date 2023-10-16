@@ -10,7 +10,7 @@ const slugify = require('slugify');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === `DataJson`) {
+  if (node.internal.type === `Recipe`) {
     const value = slugify(node.title, { lower: true });
 
     createNodeField({
@@ -25,13 +25,17 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const result = await graphql(`
     query {
-      recipes: allDataJson {
+      allRecipe {
         nodes {
           fields {
             slug
           }
           id
           ingredients
+          ingredientsV2 {
+            name
+            unit
+          }
           title
           stars
           directions
@@ -45,7 +49,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  result.data.recipes.nodes.forEach((node) => {
+  const recipes = result?.data?.allRecipe?.nodes || [];
+
+  recipes.forEach((node) => {
     createPage({
       path: `/recipes/${node.fields.slug}`,
       component: path.resolve(`./src/templates/recipe-post.js`),

@@ -7,14 +7,20 @@ module.exports = {
   plugins: [
     'gatsby-plugin-netlify',
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        path: `./src/data/`,
+        typeName: `Recipe`, // a fixed string
+      }
+    },
     `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `data`,
+        name: `recipes`,
         path: `${__dirname}/src/data/`,
-        ignore: [`**/\.*`], // ignore files starting with a dot
+        fastHash: true,
       },
     },
     {
