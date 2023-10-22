@@ -1,0 +1,31 @@
+{
+  "title": "Cheese Cake Tarts",
+  "categories": [
+    "baking"
+  ],
+  "meta": {
+    "prep": "",
+    "cook": "",
+    "ready_in": ""
+  },
+  "images": [
+    "../images/recipes/cheese-cake-tarts.jpeg"
+  ],
+  "stars": 4.5,
+  "ingredients": [
+    "1 package tart shells",
+    "1 package cream cheese, softened",
+    "1/2 cup icing sugar",
+    "1 teaspoon vanilla",
+    "1 cup whipping cream OR 1 small tub cool whip"
+  ],
+  "directions": [
+    "Bake tart shells according to package. Let cool.",
+    "In large bowl, beat cream cheese and icing sugar together till smooth. Add vanilla and mix again.",
+    "In separate bowl beat whipping cream till stiff peaks (use a whip cream stabilizer)",
+    "Fold whipping cream (or cool whip) into cheese mixture.",
+    "Add to shells.",
+    "Cover with choice of toppings. Refrigerate.",
+    "** If using a runny topping such as freezer jam leave an indent in the cheesecake mixture to hold the jam so it doesn’t run off."
+  ]
+}
