@@ -6,6 +6,7 @@
   "author": "Chris Naismith <chris@naismith.dev>",
   "license": "MIT",
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "scripts/*"
   ]
 }
