@@ -59,22 +59,16 @@ const RecipePost = ({ data }) => {
 
         </Box>
         <SubHeading>Ingredients</SubHeading>
-        {recipe.ingredientsV2 ? (
-          <div>Hello World</div>
-        ) : (
-          <Ingredient.List>
-            {recipe.ingredients.map((source, i) => {
-              const { ingredient, attributes } = parseIngredient(source);
-              return (
-                <Ingredient.Item strong={attributes.strong} key={i}>
-                  {ingredient}
-                </Ingredient.Item>
-              );
-            })}
-          </Ingredient.List>
-        )}
-
-
+        <Ingredient.List>
+          {recipe.ingredients.map((source, i) => {
+            const { ingredient, attributes } = parseIngredient(source);
+            return (
+              <Ingredient.Item strong={attributes.strong} key={i}>
+                {ingredient}
+              </Ingredient.Item>
+            );
+          })}
+        </Ingredient.List>
         <SubHeading>Directions</SubHeading>
         <Direction.List>
           {recipe.directions.map((direction, i) => (
