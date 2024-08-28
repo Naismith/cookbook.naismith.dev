@@ -7,7 +7,7 @@ export const CategorySelect = ({
   handleCategoryClick,
 }) => {
   return (
-    <Box mb={3}>
+    <Box display="flex" gap={1} mb={3}>
       {categories.map((category) => (
         <Button
           color="primary"

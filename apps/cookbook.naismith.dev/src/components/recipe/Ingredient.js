@@ -1,3 +1,5 @@
+import React from 'react';
+import { Checkbox } from '@mui/material'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
@@ -8,15 +10,24 @@ const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2rem;
+  margin-left: -9px;
 
   @media print {
     margin-bottom: 1rem;
   }
 `;
 
-const Item = styled.li`
-  width: 50%;
+const Item = ({ children }) => (
+  <StyledItem>
+    <Checkbox />
+    {children}
+  </StyledItem>
+)
+
+const StyledItem = styled.li`
+  width: 100%;
   margin: 0;
+  font-size: 1.5rem;
 
   ${(props) =>
     props.strong &&

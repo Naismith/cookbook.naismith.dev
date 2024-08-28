@@ -12,6 +12,7 @@ const List = styled.ol`
 
 const Item = styled.li`
   margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 
   @media print {
     margin: 0;
