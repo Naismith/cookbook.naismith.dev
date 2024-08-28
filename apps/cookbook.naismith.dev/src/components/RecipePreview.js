@@ -27,7 +27,7 @@ const PreviewCard = styled(Card)`
 
 const RecipePreview = ({ recipe }) => {
   const onClick = () => {
-    navigate(`/recipes/${recipe.fields.slug}`);
+    navigate(`/recipes/${recipe.fields.slug}/`);
   };
 
   return (
