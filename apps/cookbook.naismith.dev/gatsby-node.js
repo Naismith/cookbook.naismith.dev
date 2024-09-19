@@ -54,7 +54,6 @@ exports.createPages = async ({ graphql, actions }) => {
   recipes.forEach((node) => {
     createPage({
       path: `/recipes/${node.fields.slug}`,
-      matchPath: '/recipes/:id/',
       component: path.resolve(`./src/templates/recipe-post.js`),
       context: {
         id: node.id,
