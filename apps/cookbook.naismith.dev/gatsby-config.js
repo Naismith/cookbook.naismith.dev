@@ -1,4 +1,4 @@
-const adapter = require('gatsby-adapter-netlify');
+const adapter = require('gatsby-adapter-netlify').default;
 
 module.exports = {
   adapter,
