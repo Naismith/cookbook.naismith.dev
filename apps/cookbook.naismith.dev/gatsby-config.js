@@ -5,14 +5,13 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    'gatsby-plugin-netlify',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-transformer-json`,
       options: {
         path: `./src/data/`,
         typeName: `Recipe`, // a fixed string
-      }
+      },
     },
     `gatsby-plugin-material-ui`,
     {
