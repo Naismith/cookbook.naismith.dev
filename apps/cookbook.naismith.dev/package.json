@@ -1,5 +1,5 @@
 {
-  "name": "cookbook.naismith.dev",
+  "name": "@naismith/cookbook-web",
   "private": true,
   "description": "Naismith cookbook",
   "version": "0.1.0",

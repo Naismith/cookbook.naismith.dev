@@ -1,12 +1,8 @@
 {
-  "name": "naismith-cookbook-monorepo",
-  "private": true,
-  "description": "Naismith cookbook",
-  "version": "0.1.0",
-  "author": "Chris Naismith <chris@naismith.dev>",
-  "license": "MIT",
+  "name": "cookbook.naismith.dev",
+  "packageManager": "yarn@4.11.0",
   "workspaces": [
     "apps/*",
-    "scripts/*"
+    "packages/*"
   ]
 }
