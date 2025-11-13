@@ -1,7 +1,7 @@
 const adapter = require('gatsby-adapter-netlify').default;
 
 module.exports = {
-  adapter,
+  adapter: adapter(),
   siteMetadata: {
     title: `Naismith Cookbook`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
