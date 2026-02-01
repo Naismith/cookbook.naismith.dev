@@ -2,7 +2,7 @@ import { z } from "zod/v4";
 import slugify from "slugify";
 const recipeData = import.meta.glob("./recipe-data/*.json", { eager: true });
 
-const recipeSchema = z
+export const recipeSchema = z
   .object({
     title: z.string(),
     // description: z.string(),

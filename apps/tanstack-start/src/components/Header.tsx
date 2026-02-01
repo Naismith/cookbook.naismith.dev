@@ -1,6 +1,9 @@
+import { Route } from "@/routes/__root";
 import { Link } from "@tanstack/react-router";
 
 export function Header() {
+  const { session } = Route.useRouteContext();
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
@@ -17,6 +20,14 @@ export function Header() {
           >
             Recipes
           </Link>
+          {session && (
+            <Link
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              to="/add-recipe"
+            >
+              Add Recipe
+            </Link>
+          )}
         </nav>
       </div>
     </header>
