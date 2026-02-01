@@ -1,0 +1,40 @@
+{
+  "title": "Cream of Gnocchi Soup",
+  "categories": [
+    "soup"
+  ],
+  "meta": {
+    "prep": "10 m",
+    "cook": "45 m",
+    "ready_in": "1 h"
+  },
+  "images": [
+    "../images/recipes/cream-of-gnocchi-soup.jpeg"
+  ],
+  "stars": 4.5,
+  "ingredients": [
+    "2 tbsp butter",
+    "1 medium onion diced",
+    "2 medium carrots diced",
+    "2 celery sticks diced",
+    "1 tsp salt",
+    "1 tsp dried basil",
+    "1 tsp garlic powder",
+    "1/8 tsp ground pepper",
+    "3 tbsp all purpose flour",
+    "4 cups vegetable broth",
+    "1 pack potato gnocchi",
+    "2 cups half and half",
+    "3 oz fresh spinach chopped",
+    "2 oz cream cheese"
+  ],
+  "directions": [
+    "In a large pot, first melt the butter on medium heat. Then add your onions, carrots, and celery. Sautee these for about 5 minutes.",
+    "After they’ve sauteed, add in the seasonings along with the all-purpose flour and mix well.",
+    "Next, pour your vegetable broth in the pot. Bring everything to a boil and then cover and simmer on low for about 30 minutes.",
+    "Once the 30 minutes have hit, uncover your pot, add in the gnocchi, and cook for 5 minutes.",
+    "Then, add the half & half, chopped spinach, and cream cheese!",
+    "Continue cooking for another 5 minutes until the cream cheese has melted completely.",
+    "And you’re done!"
+  ]
+}

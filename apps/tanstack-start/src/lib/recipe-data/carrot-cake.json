@@ -1,0 +1,30 @@
+{
+    "title": "Carrot Cake",
+    "categories": [
+        "baking"
+    ],
+    "meta": {},
+    "images": [
+        "../images/recipes/carrot-cake.jpg"
+    ],
+    "stars": 4.5,
+    "ingredients": [
+        "2 cups stirred but unsifted cake and pastry flour",
+        "2 tsp baking soda",
+        "1 1/2 teaspoon baking powder",
+        "1 teaspoon salt",
+        "2 teaspoon cinnamon",
+        "2 cups sugar",
+        "1 1/2 cups oil",
+        "4 eggs",
+        "2 cups grated carrot",
+        "1 1/4 cup drained, crushed pineapple",
+        "1 cup chopped nuts"
+    ],
+    "directions": [
+        "Place sifter over large bowl and measure flour, baking soda, baking powder, salt and cinnamon into it and sift into bowl. Now add the sugar, oil, eggs and beat hard by hand for a minute. Add carrots, pineapple and nuts and beat to mix. This batter is quite moist.",
+        "Grease bottom of 13×9″ pan. Line bottom with buttered heavy brown paper. Pour in batter and bake at 350 on centre shelf for 35 minutes or until when gently touched at centre your fingerprint does not remain.",
+        "Cool and frost"
+    ],
+    "source": "https://shirleylynnmartin.com/carrot-cake-mary"
+}

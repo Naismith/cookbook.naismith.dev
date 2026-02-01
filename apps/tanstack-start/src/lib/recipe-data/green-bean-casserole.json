@@ -1,0 +1,41 @@
+{
+  "title": "Green Bean Casserole with Crispy Sausage",
+  "categories": [
+    
+  ],
+  "meta": {
+    "prep": "25 m",
+    "cook": "15 m",
+    "ready_in": "45 m"
+  },
+  "images": [
+    "../images/recipes/green-bean-casserole.jpeg"
+  ],
+  "stars": 4.5,
+  "ingredients": [
+    "3 tablespoon olive oil",
+    "kosher salt",
+    "Pepper",
+    "2 pound green beans",
+    "6 ounce Italian sausage",
+    "1 cup fresh bread crumbs",
+    "1/4 cup grated Parmesan",
+    "2 tablespoon grated Parmesan",
+    "1 onion",
+    "1 clove garlic",
+    "3/4 cup 2-percent milk",
+    "4 ounce lowfat cream cheese",
+    "Pinch freshly grated nutmeg",
+    "pinch cayenne pepper",
+    "2 teaspoon fresh lemon zest",
+    "1 bunch spinach"
+  ],
+  "source": "https://www.womansday.com/food-recipes/food-drinks/recipes/a11465/green-bean-casserole-crispy-sausage-recipe-wdy1113/",
+  "directions": [
+    "Heat oven to 375 degrees F. Oil a 2-quart baking dish. Bring a large pot of salted water to a boil. Add the beans and cook until just tender, 3 to 4 minutes. Drain and run under cold water to cool.",
+    "Meanwhile, heat 1 tablespoon oil in a large skillet over medium heat. Add the sausage and cook, breaking it up with a spoon, until browned, about 5 minutes. Transfer to a bowl and toss with the bread crumbs and 2 tablespoons Parmesan.",
+    "Wipe out the skillet and heat the remaining 2 tablespoons oil over medium heat. Add the onion, season with 1/2 teaspoon salt and 1/4 teaspoon pepper and cook, covered, stirring occasionally, until very tender, 6 to 8 minutes. Stir in the garlic and cook for 1 minute.",
+    "Whisk in the milk and bring to a simmer. Whisk in the cream cheese, nutmeg, cayenne, and remaining 1/4 cup Parmesan and simmer, stirring occasionally, until slightly thickened, 2 to 3 minutes; stir in the lemon zest and toss with the green beans.",
+    "Fold in the spinach and transfer to the prepared baking dish. Sprinkle with the sausage mixture and bake until golden brown, 15 to 20 minutes."
+  ]
+}

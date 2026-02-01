@@ -1,0 +1,35 @@
+{
+  "title": "Bacon & Broccoli Quiche",
+  "categories": [],
+  "meta": {
+    "prep": "",
+    "cook": "30 m",
+    "ready_in": ""
+  },
+  "images": [
+    "../images/recipes/bacon-broccoli-quiche.jpg"
+  ],
+  "stars": 4.5,
+  "ingredients": [
+    "1 deep dish pie crust unbaked",
+    "6 bacon slices diced finely",
+    "2 cups broccoli chopped",
+    "1 cup grated cheddar cheese",
+    "3/4 cup milk",
+    "1/2 cup heavy whipping cream",
+    "3 eggs",
+    "1 tsp salt",
+    "1 tsp cracked pepper"
+  ],
+  "directions": [
+    "Preheat the oven to 350F.",
+    "In a large skillet, cook the bacon until crisp. Remove from skillet and drain on a paper towel.",
+    "Add the broccoli to the same pan, and cook over medium until broccoli begins to soften (a few minutes)",
+    "In a large bowl, combine the cooked bacon and broccoli, and then add the cheese. Mix roughly until well combined.",
+    "Add the bacon, broccoli and cheese to the unbaked pie crust.",
+    "Whisk together the milk, cream, eggs, salt and pepper.",
+    "Pour over the bacon/broccoli cheese into the pie crust.",
+    "Bake for 30 minutes, or until you can’t see liquid in the center of the quiche.",
+    "Eat warm, or chill (covered) in the fridge for another day."
+  ]
+}
