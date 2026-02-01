@@ -1,4 +1,4 @@
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import { createFileRoute, redirect } from "@tanstack/react-router";
 import { SiGithub } from "@icons-pack/react-simple-icons";
 

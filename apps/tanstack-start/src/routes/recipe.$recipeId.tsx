@@ -43,7 +43,7 @@ function RouteComponent() {
 
         <div className="grid gap-8 lg:grid-cols-2">
           {/* Recipe Image */}
-          <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+          <div className="relative aspect-4/3 overflow-hidden rounded-xl">
             <img
               src={recipe.images[0] || "/placeholder.svg"}
               alt=""
@@ -106,7 +106,7 @@ function RouteComponent() {
                       key={index}
                       className="flex items-start gap-3 text-foreground"
                     >
-                      <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary" />
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
                       <span>{ingredient}</span>
                     </li>
                   ))}
@@ -128,7 +128,7 @@ function RouteComponent() {
             <ol className="space-y-6">
               {recipe.directions.map((instruction, index) => (
                 <li key={index} className="flex gap-4">
-                  <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-sm font-semibold text-primary-foreground">
+                  <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-semibold text-primary-foreground">
                     {index + 1}
                   </span>
                   <p className="flex-1 pt-1 text-foreground">{instruction}</p>
