@@ -6,7 +6,9 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
           <ChefHatIcon className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold text-foreground">Savory</span>
+          <span className="text-xl font-bold text-foreground">
+            Naismith Cookbook
+          </span>
         </Link>
         <nav className="flex items-center gap-6">
           <Link

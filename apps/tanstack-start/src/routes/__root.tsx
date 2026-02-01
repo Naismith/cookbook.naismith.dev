@@ -4,6 +4,7 @@ import { TanStackDevtools } from "@tanstack/react-devtools";
 
 import { Header } from "../components/Header";
 
+import logo from "../logo.svg?url";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -17,10 +18,16 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title: "Naismith Cookbook",
       },
     ],
     links: [
+      {
+        rel: "icon",
+        href: logo,
+        sizes: "any",
+        type: "image/svg+xml",
+      },
       {
         rel: "stylesheet",
         href: appCss,

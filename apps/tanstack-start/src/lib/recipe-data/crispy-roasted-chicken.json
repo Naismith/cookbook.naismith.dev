@@ -1,0 +1,31 @@
+{
+  "title": "Crispy Oven Roasted Chicken Breast",
+  "categories": ["chicken", "dinner"],
+  "meta": {
+    "prep": "",
+    "cook": "",
+    "ready_in": ""
+  },
+  "images": ["../images/recipes/crispy-roasted-chicken.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "2 bone-in, skin-on chicken breasts",
+    "1/2 Tbsp olive oil",
+    "1 tsp salt (1/2 tsp if the chicken is brined)",
+    "1/2 tsp garlic powder (or granulated garlic)",
+    "1/2 tsp black pepper (freshly ground)",
+    "1 tsp dark chili powder",
+    "1/2 cup cooking oil (e.g. canola or vegetable oil)"
+  ],
+  "directions": [
+    "If possible, prepare the chicken brine and brine the chicken breasts for 2 to 4 hours.",
+    "Preheat oven to 400F.",
+    "Dry chicken breasts with a paper towel and rub with olive oil all over. Evenly sprinkle salt and spices on each side and gently pat to make sure the seasoning properly adheres to the surface of the chicken.",
+    "Line a baking sheet with aluminum foil. Fit a cooling rack inside the baking sheet and set aside.",
+    "Heat 1/2 cup of cooking oil (you can use olive oil or any other oil you prefer) in a large skillet over medium-high heat. Place chicken breast skin side down on the skillet and cook for 2 minutes. Flip and continue cooking for another 2 minutes.",
+    "Transfer the chicken breasts onto the baking sheet, skin side up. Pour about 1 Tbsp of the cooking oil from the skillet over each chicken breast.",
+    "Bake at 400F for about 45 minutes, until internal temperature of the meat reaches 160F.",
+    "Let rest for 5 minutes and serve."
+  ],
+  "source": "https://cravingtasty.com/oven-roasted-bone-in-chicken-breast/"
+}

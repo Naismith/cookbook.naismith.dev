@@ -1,0 +1,43 @@
+{
+  "title": "Crispy Sesame Chicken",
+  "categories": ["chicken", "dinner", "asian"],
+  "meta": {
+    "prep": "",
+    "cook": "",
+    "ready_in": ""
+  },
+  "images": ["../images/recipes/crispy-sesame-chicken.jpg"],
+  "stars": 4.5,
+  "ingredients": [
+    "Chicken:",
+    "",
+    "1 1/2 lbs boneless skinless chicken breasts cut into 1 inch pieces",
+    "2 eggs",
+    "salt and pepper",
+    "1/2 cup flour",
+    "1/2 cup cornstarch",
+    "",
+    "Sauce:",
+    "1 teaspoon minced fresh garlic",
+    "1/4 cup honey",
+    "1/2 cup soy sauce",
+    "1/2 cup ketchup*",
+    "3 tablespoons brown sugar**",
+    "1/4 cup rice vinegar",
+    "1 tablespoon sesame oil",
+    "2 teaspoons cornstarch",
+    "2 tablespoons sesame seeds",
+    "2 tablespoons sliced green onions"
+  ],
+  "directions": [
+    "Whisk the eggs and add them to a bowl with salt and pepper to taste.",
+    "Combine flour with 1/2 cup of cornstarch to a bowl.",
+    "Dip each piece of chicken into the egg mixture, then into the flour. Repeat the process with all of the chicken.",
+    "Heat 3 inches of oil in a deep pan to 350 degrees F",
+    "When oil is hot, add about 8 piece of chicken at a time and cook for 5 minutes or until crispy and golden brown. Repeat with all of the chicken.",
+    "Drain the chicken on a paper towel lined plate.",
+    "Meanwhile, while the chicken cooks, combine the honey, soy sauce, ketchup, brown sugar, rice vinegar, sesame oil and 2 teaspoons of cornstarch in a bowl.",
+    "Heat the tablespoon of sesame of oil in a large pan over medium heat. Cook garlic for 30 seconds then add the sauce and bring to a simmer. Cook for 3-4 minutes or until just thickened.",
+    "Add the chicken and toss to coat with the sauce. Sprinkle with sesame seeds and green onions, then serve immediately."
+  ]
+}
