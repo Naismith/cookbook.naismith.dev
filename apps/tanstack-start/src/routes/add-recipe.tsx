@@ -20,7 +20,7 @@ import { createOpenaiChat } from "@tanstack/ai-openai";
 import { recipeSchema } from "@/lib/recipes";
 import { JSDOM } from "jsdom";
 
-export const Route = createFileRoute("/(auth)/add-recipe")({
+export const Route = createFileRoute("/add-recipe")({
   component: RouteComponent,
   server: {
     handlers: {
@@ -62,7 +62,6 @@ export const Route = createFileRoute("/(auth)/add-recipe")({
               ${recipeText}
             `;
 
-            // Create a streaming chat response
             const adapter = createOpenaiChat(
               "gpt-5.2",
               addRecipePayload.intelligenceToken,
@@ -79,7 +78,6 @@ export const Route = createFileRoute("/(auth)/add-recipe")({
               outputSchema: recipeSchema,
             });
 
-            // Convert stream to HTTP response
             return Response.json(result);
           } catch (error) {
             return new Response(
@@ -159,12 +157,6 @@ function RouteComponent() {
         body: JSON.stringify(data),
       });
       console.log(result);
-      // if (result.recipeId && result.recipeId !== "stub") {
-      //   await router.navigate({
-      //     to: "/recipe/$recipeId",
-      //     params: { recipeId: result.recipeId },
-      //   });
-      // }
     } catch (err) {
       setFormError("root", {
         message: err instanceof Error ? err.message : "Something went wrong",

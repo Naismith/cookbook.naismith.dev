@@ -9,20 +9,13 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as LoginRouteImport } from './routes/login'
-import { Route as authRouteRouteImport } from './routes/(auth)/route'
+import { Route as AddRecipeRouteImport } from './routes/add-recipe'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as RecipeRecipeIdRouteImport } from './routes/recipe.$recipeId'
-import { Route as authAddRecipeRouteImport } from './routes/(auth)/add-recipe'
-import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
-const LoginRoute = LoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const authRouteRoute = authRouteRouteImport.update({
-  id: '/(auth)',
+const AddRecipeRoute = AddRecipeRouteImport.update({
+  id: '/add-recipe',
+  path: '/add-recipe',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -35,82 +28,44 @@ const RecipeRecipeIdRoute = RecipeRecipeIdRouteImport.update({
   path: '/recipe/$recipeId',
   getParentRoute: () => rootRouteImport,
 } as any)
-const authAddRecipeRoute = authAddRecipeRouteImport.update({
-  id: '/add-recipe',
-  path: '/add-recipe',
-  getParentRoute: () => authRouteRoute,
-} as any)
-const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
-  id: '/api/auth/$',
-  path: '/api/auth/$',
-  getParentRoute: () => rootRouteImport,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/login': typeof LoginRoute
-  '/add-recipe': typeof authAddRecipeRoute
+  '/add-recipe': typeof AddRecipeRoute
   '/recipe/$recipeId': typeof RecipeRecipeIdRoute
-  '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/login': typeof LoginRoute
-  '/add-recipe': typeof authAddRecipeRoute
+  '/add-recipe': typeof AddRecipeRoute
   '/recipe/$recipeId': typeof RecipeRecipeIdRoute
-  '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/(auth)': typeof authRouteRouteWithChildren
-  '/login': typeof LoginRoute
-  '/(auth)/add-recipe': typeof authAddRecipeRoute
+  '/add-recipe': typeof AddRecipeRoute
   '/recipe/$recipeId': typeof RecipeRecipeIdRoute
-  '/api/auth/$': typeof ApiAuthSplatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/'
-    | '/login'
-    | '/add-recipe'
-    | '/recipe/$recipeId'
-    | '/api/auth/$'
+  fullPaths: '/' | '/add-recipe' | '/recipe/$recipeId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/login' | '/add-recipe' | '/recipe/$recipeId' | '/api/auth/$'
-  id:
-    | '__root__'
-    | '/'
-    | '/(auth)'
-    | '/login'
-    | '/(auth)/add-recipe'
-    | '/recipe/$recipeId'
-    | '/api/auth/$'
+  to: '/' | '/add-recipe' | '/recipe/$recipeId'
+  id: '__root__' | '/' | '/add-recipe' | '/recipe/$recipeId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  authRouteRoute: typeof authRouteRouteWithChildren
-  LoginRoute: typeof LoginRoute
+  AddRecipeRoute: typeof AddRecipeRoute
   RecipeRecipeIdRoute: typeof RecipeRecipeIdRoute
-  ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/login': {
-      id: '/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/(auth)': {
-      id: '/(auth)'
-      path: ''
-      fullPath: ''
-      preLoaderRoute: typeof authRouteRouteImport
+    '/add-recipe': {
+      id: '/add-recipe'
+      path: '/add-recipe'
+      fullPath: '/add-recipe'
+      preLoaderRoute: typeof AddRecipeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -127,41 +82,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof RecipeRecipeIdRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(auth)/add-recipe': {
-      id: '/(auth)/add-recipe'
-      path: '/add-recipe'
-      fullPath: '/add-recipe'
-      preLoaderRoute: typeof authAddRecipeRouteImport
-      parentRoute: typeof authRouteRoute
-    }
-    '/api/auth/$': {
-      id: '/api/auth/$'
-      path: '/api/auth/$'
-      fullPath: '/api/auth/$'
-      preLoaderRoute: typeof ApiAuthSplatRouteImport
-      parentRoute: typeof rootRouteImport
-    }
   }
 }
 
-interface authRouteRouteChildren {
-  authAddRecipeRoute: typeof authAddRecipeRoute
-}
-
-const authRouteRouteChildren: authRouteRouteChildren = {
-  authAddRecipeRoute: authAddRecipeRoute,
-}
-
-const authRouteRouteWithChildren = authRouteRoute._addFileChildren(
-  authRouteRouteChildren,
-)
-
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  authRouteRoute: authRouteRouteWithChildren,
-  LoginRoute: LoginRoute,
+  AddRecipeRoute: AddRecipeRoute,
   RecipeRecipeIdRoute: RecipeRecipeIdRoute,
-  ApiAuthSplatRoute: ApiAuthSplatRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

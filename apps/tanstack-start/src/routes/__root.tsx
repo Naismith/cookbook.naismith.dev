@@ -1,7 +1,7 @@
 import {
   HeadContent,
   Scripts,
-  createRootRouteWithContext,
+  createRootRoute,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import { TanStackDevtools } from "@tanstack/react-devtools";
@@ -10,28 +10,8 @@ import { Header } from "../components/Header";
 
 import logo from "../logo.svg?url";
 import appCss from "../styles.css?url";
-import { AuthSession, getSession } from "start-authjs";
-import { createServerFn } from "@tanstack/react-start";
-import { getRequest } from "@tanstack/react-start/server";
-import { authConfig } from "@/utils/auth";
 
-interface RouterContext {
-  session: AuthSession | null;
-}
-
-const fetchSession = createServerFn({ method: "GET" }).handler(async () => {
-  const request = getRequest();
-  const session = await getSession(request, authConfig);
-  return session;
-});
-
-export const Route = createRootRouteWithContext<RouterContext>()({
-  beforeLoad: async () => {
-    const session = await fetchSession();
-    return {
-      session,
-    };
-  },
+export const Route = createRootRoute({
   head: () => ({
     meta: [
       {

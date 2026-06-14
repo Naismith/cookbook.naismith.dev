@@ -9,9 +9,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@auth/core": "^0.34.3",
     "@hookform/resolvers": "^5.2.2",
-    "@icons-pack/react-simple-icons": "^13.13.0",
     "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
@@ -28,12 +26,10 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.16.0",
-    "next-auth": "^4.24.14",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-hook-form": "^7.76.0",
     "slugify": "^1.6.9",
-    "start-authjs": "^1.0.2",
     "tailwind-merge": "^3.6.0",
     "tailwindcss": "^4.3.0",
     "zod": "^4.4.3"

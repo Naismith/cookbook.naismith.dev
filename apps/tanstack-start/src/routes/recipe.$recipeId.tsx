@@ -42,14 +42,11 @@ function RouteComponent() {
         </Link>
 
         <div className="grid gap-8 lg:grid-cols-2">
-          {/* Recipe Image */}
           <div className="relative aspect-4/3 overflow-hidden rounded-xl">
             <img
               src={recipe.images[0] || "/placeholder.svg"}
               alt=""
-              //   fill
               className="object-cover"
-              //   priority
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
             <div className="absolute left-4 top-4">
@@ -59,7 +56,6 @@ function RouteComponent() {
             </div>
           </div>
 
-          {/* Recipe Info */}
           <div className="space-y-6">
             <div>
               <h1 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
@@ -70,7 +66,6 @@ function RouteComponent() {
               </p>
             </div>
 
-            {/* Time Cards */}
             <div className="grid grid-cols-3 gap-4">
               <TimeCard
                 label="Prep Time"
@@ -82,16 +77,10 @@ function RouteComponent() {
                 value={recipe.meta?.cook || ""}
                 icon={<FlameIcon />}
               />
-              {/* <TimeCard
-                label="Servings"
-                value={`${recipe.servings}`}
-                icon={<UsersIcon />}
-              /> */}
             </div>
 
             <Separator className="bg-border/50" />
 
-            {/* Ingredients */}
             <Card className="border-border/50 bg-card">
               <CardHeader className="pb-3">
                 <CardTitle className="flex items-center gap-2 text-xl">
@@ -116,7 +105,6 @@ function RouteComponent() {
           </div>
         </div>
 
-        {/* Instructions */}
         <Card className="mt-8 border-border/50 bg-card">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-xl">
