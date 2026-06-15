@@ -15,10 +15,10 @@ const config = defineConfig({
     },
   },
   plugins: [
-    devtools(),
-    netlify(),
-    tailwindcss(),
     tanstackStart(),
+    netlify(),
+    devtools(),
+    tailwindcss(),
     viteReact(),
   ],
 })
