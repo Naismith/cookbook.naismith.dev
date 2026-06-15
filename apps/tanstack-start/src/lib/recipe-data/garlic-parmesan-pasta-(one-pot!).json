@@ -1,0 +1,33 @@
+{
+  "title": "Garlic Parmesan Pasta (One Pot!)",
+  "categories": ["dinner", "pasta"],
+  "meta": {
+    "prep": "10 m",
+    "cook": "10 m",
+    "ready_in": "20 m"
+  },
+  "images": ["../images/recipes/garlic-parmesan-pasta-(one-pot!).jpg"],
+  "stars": null,
+  "source": "https://thecozycook.com/garlic-parmesan-pasta/",
+  "ingredients": [
+    "1/2 cup Parmesan cheese, finely grated",
+    "3 tbsp butter, divided",
+    "4 cloves garlic, minced",
+    "2 cups chicken broth",
+    "1 cup milk",
+    "8 oz angel hair pasta",
+    "Fresh parsley, for garnish",
+    "Optional: 1/4 tsp each onion powder, oregano, thyme, parsley, and pepper"
+  ],
+  "directions": [
+    "Grate the Parmesan cheese and set aside to come to room temperature.",
+    "Melt 2 tbsp butter over medium heat in a large skillet.",
+    "Add the garlic and cook for 1–2 minutes, stirring occasionally.",
+    "Add the chicken broth and optional seasonings. Slowly add the milk, stirring. Bring to a boil.",
+    "Add the pasta. Use tongs to twist the noodles into the skillet as they soften.",
+    "Cook for 4–5 minutes, stirring occasionally so the noodles don't stick. Reduce heat to low.",
+    "Add the remaining 1 tbsp butter and toss to coat.",
+    "Gradually sprinkle in the Parmesan, stirring until smooth. The sauce thickens as it rests.",
+    "Top with fresh parsley and serve."
+  ]
+}
